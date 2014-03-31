@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JIVE Exporter Support
+Bundle-SymbolicName: edu.buffalo.cse.jive.exporter;singleton:=true
+Bundle-Version: 1.9.30.v20130525b
+Bundle-Vendor: University at Buffalo
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: edu.buffalo.cse.jive.model;bundle-version="1.9.1",
+ edu.buffalo.cse.jive.preferences;bundle-version="1.9.1"
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: edu.buffalo.cse.jive.exporter.JiveExporterPlugin
+Import-Package: edu.buffalo.cse.jive.debug.model,
+ org.eclipse.core.runtime;version="3.4.0",
+ org.osgi.framework;version="1.7.0"
+Export-Package: edu.buffalo.cse.jive.exporter

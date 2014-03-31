@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Schema file written by PDE -->
+<schema targetNamespace="edu.buffalo.cse.jive.launch.offline" xmlns="http://www.w3.org/2001/XMLSchema">
+<annotation>
+      <appinfo>
+         <meta.schema plugin="edu.buffalo.cse.jive.launch.offline" id="offlineImporters" name="JIVE Offline Importers"/>
+      </appinfo>
+      <documentation>
+         The JIVE Offline Importers extension point provides an extensible mechanism for supporting external (i.e., user-defined) models for JIVE. An importer is simply a class that maps the import source model to JIVE&apos;s model.
+      </documentation>
+   </annotation>
+
+   <element name="extension">
+      <annotation>
+         <appinfo>
+            <meta.element />
+         </appinfo>
+      </annotation>
+      <complexType>
+         <sequence minOccurs="1" maxOccurs="unbounded">
+            <element ref="page"/>
+         </sequence>
+         <attribute name="point" type="string" use="required">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="id" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="name" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+               <appinfo>
+                  <meta.attribute translatable="true"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <element name="page">
+      <annotation>
+         <appinfo>
+            <meta.element labelAttribute="name" icon="icon"/>
+         </appinfo>
+      </annotation>
+      <complexType>
+         <attribute name="id" type="string" use="required">
+            <annotation>
+               <documentation>
+                  a unique identifier used to reference the search page
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="name" type="string" use="required">
+            <annotation>
+               <documentation>
+                  the name of the search query to display in the query list
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="class" type="string" use="required">
+            <annotation>
+               <documentation>
+                  a search page class created for use by the search dialog
+               </documentation>
+               <appinfo>
+                  <meta.attribute kind="java" basedOn=":edu.buffalo.cse.jive.launch.offline.IOfflineImporter"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+         <attribute name="protocol" type="string" use="required">
+            <annotation>
+               <documentation>
+                  Determines the protocol supported by the importer, analogous to a JDBC protocol.
+               </documentation>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <annotation>
+      <appinfo>
+         <meta.section type="since"/>
+      </appinfo>
+      <documentation>
+         1.9.25
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appinfo>
+         <meta.section type="examples"/>
+      </appinfo>
+      <documentation>
+         The following is an example of an offline importer extension:
+&lt;p&gt;
+&lt;pre&gt;
+    &lt;extension point=&quot;edu.buffalo.cse.jive.launch.offline.offlineImporters&quot;&gt;
+        &lt;page
+            id=&quot;com.example.xyz.myImporter&quot;
+            name=&quot;My Importer&quot;
+            class=&quot;com.example.xyz.ExampleOfflineImporter&quot;/&gt;
+    &lt;/extension&gt;
+&lt;/pre&gt;
+&lt;/p&gt;
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appinfo>
+         <meta.section type="apiinfo"/>
+      </appinfo>
+      <documentation>
+         Plug-ins extending this extension point must provide a class implementing &lt;samp&gt;edu.buffalo.cse.jive.launch.offline.IOfflineImporter&lt;/samp&gt; as the value of the &lt;samp&gt;class&lt;/samp&gt; attribute.
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appinfo>
+         <meta.section type="implementation"/>
+      </appinfo>
+      <documentation>
+         An implementation of this extension point for Fiji logs in XML format is supplied in the &lt;samp&gt;edu.buffalo.cse.jive.importer.fiji&lt;/samp&gt; fragment.
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appinfo>
+         <meta.section type="copyright"/>
+      </appinfo>
+      <documentation>
+         Copyright © 2007--2012 University at Buffalo, The State University of New York.  All rights reserved.
+      </documentation>
+   </annotation>
+
+</schema>

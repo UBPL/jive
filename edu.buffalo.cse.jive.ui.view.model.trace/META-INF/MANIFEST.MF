@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JIVE UI Trace Model View
+Bundle-SymbolicName: edu.buffalo.cse.jive.ui.view.model.trace;singleton:=true
+Bundle-Version: 1.9.30.v20130525b
+Bundle-Vendor: University at Buffalo
+Fragment-Host: edu.buffalo.cse.jive.ui
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: edu.buffalo.cse.jive.ui.view.model.trace;
+  uses:="org.eclipse.jface.action,
+   org.eclipse.jface.resource,
+   org.eclipse.jface.viewers,
+   edu.buffalo.cse.jive.ui.view,
+   org.eclipse.swt.widgets,
+   edu.buffalo.cse.jive.debug.model,
+   edu.buffalo.cse.jive.model"

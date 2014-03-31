@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<fragment>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            allowMultiple="false"
+            category="edu.buffalo.cse.jive.ui.jiveCategory"
+            class="edu.buffalo.cse.jive.ui.view.diagram.contour.ContourDiagramView"
+            icon="icons/contour_model/contours/enabled/instance.gif"
+            id="edu.buffalo.cse.jive.ui.contourDiagramView"
+            name="Object Diagram"
+            restorable="true">
+      </view>
+   </extension>
+
+</fragment>

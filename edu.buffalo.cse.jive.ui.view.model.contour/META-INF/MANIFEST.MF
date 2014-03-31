@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JIVE UI Contour Model View
+Bundle-SymbolicName: edu.buffalo.cse.jive.ui.view.model.contour;singleton:=true
+Bundle-Version: 1.9.30.v20130525b
+Bundle-Vendor: University at Buffalo
+Fragment-Host: edu.buffalo.cse.jive.ui
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: edu.buffalo.cse.jive.ui.view.model.contour;
+  uses:="org.eclipse.jface.resource,
+   org.eclipse.ui,
+   org.eclipse.swt.custom,
+   org.eclipse.jface.viewers,
+   org.eclipse.swt.graphics,
+   edu.buffalo.cse.jive.ui.view,
+   org.eclipse.swt.widgets,
+   edu.buffalo.cse.jive.debug.model,
+   edu.buffalo.cse.jive.model"

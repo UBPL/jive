@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension-point id="searchPages" name="JIVE Search Pages" schema="schema/searchPages.exsd"/>
+   <extension
+         id="edu.buffalo.cse.jive.ui.jivePerspectives"
+         name="JIVE"
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="edu.buffalo.cse.jive.internal.ui.JivePerspectiveFactory"
+            fixed="false"
+            icon="icons/general/enabled/jive.gif"
+            id="edu.buffalo.cse.jive.ui.jivePerspective"
+            name="JIVE">
+      </perspective>
+   </extension>
+   <extension
+         id="edu.buffalo.cse.jive.ui.jiveViews"
+         name="JIVE Views"
+         point="org.eclipse.ui.views">
+      <category
+            id="edu.buffalo.cse.jive.ui.jiveCategory"
+            name="JIVE">
+      </category>
+   </extension>
+   <extension
+         point="org.eclipse.search.searchPages">
+      <page
+            class="edu.buffalo.cse.jive.ui.search.JiveSearchPageProxy"
+            extensions="java:90, jav:90"
+            icon="icons/general/enabled/search.gif"
+            id="edu.buffalo.cse.jive.ui.jiveSearchPage"
+            label="JIVE Search">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.search.searchResultViewPages">
+      <viewPage
+            class="edu.buffalo.cse.jive.ui.search.JiveSearchResultPage"
+            icon="icons/general/enabled/search.gif"
+            id="edu.buffalo.cse.jive.ui.jiveSearchResultPage"
+            searchResultClass="edu.buffalo.cse.jive.ui.search.JiveSearchResult">
+      </viewPage>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="org.eclipse.ui.resourcePerspective">
+         <perspectiveShortcut
+               id="edu.buffalo.cse.jive.ui.jivePerspective">
+         </perspectiveShortcut>
+      </perspectiveExtension>
+      <perspectiveExtension
+            targetID="org.eclipse.debug.ui.DebugPerspective">
+         <perspectiveShortcut
+               id="edu.buffalo.cse.jive.ui.jivePerspective">
+         </perspectiveShortcut>
+      </perspectiveExtension>
+      <perspectiveExtension
+            targetID="org.eclipse.jdt.ui.JavaPerspective">
+         <perspectiveShortcut
+               id="edu.buffalo.cse.jive.ui.jivePerspective">
+         </perspectiveShortcut>
+      </perspectiveExtension>
+   </extension>
+</plugin>

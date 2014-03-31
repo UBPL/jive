@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="jiveConsoleCommands" name="JIVE Console Command" schema="schema/jiveConsoleCommand.exsd"/>
+   <extension point="org.eclipse.ui.startup">
+     <startup class="edu.buffalo.cse.jive.console.BootstrapClass" />
+   </extension>
+</plugin>

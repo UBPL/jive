@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JIVE Persistent Store Extension
+Bundle-SymbolicName: edu.buffalo.cse.jive.model.store.db
+Bundle-Version: 1.9.30.v20130525b
+Bundle-Vendor: University at Buffalo
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: edu.buffalo.cse.jive.model.store.db
+Require-Bundle: edu.buffalo.cse.jive.model.jdbc.postgres

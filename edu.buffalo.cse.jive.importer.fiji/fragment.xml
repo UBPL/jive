@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<fragment>
+   <extension
+         point="edu.buffalo.cse.jive.launch.offline.offlineImporters">
+      <page
+            class="edu.buffalo.cse.jive.importer.fiji.FijiImporter"
+            id="edu.buffalo.cse.jive.importer.fiji.importer"
+            name="Fiji XML Trace Importer"
+            protocol="fiji://">
+      </page>
+   </extension>
+</fragment>

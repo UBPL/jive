@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JIVE UI Contour Diagram View
+Bundle-SymbolicName: edu.buffalo.cse.jive.ui.view.diagram.contour;singleton:=true
+Bundle-Version: 1.9.30.v20130525b
+Bundle-Vendor: University at Buffalo
+Fragment-Host: edu.buffalo.cse.jive.ui
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: edu.buffalo.cse.jive.internal.ui.view.contour.actions;x-internal:=true,
+ edu.buffalo.cse.jive.internal.ui.view.contour.editparts;x-internal:=true,
+ edu.buffalo.cse.jive.internal.ui.view.contour.figures;x-internal:=true,
+ edu.buffalo.cse.jive.internal.ui.view.contour.graph;x-internal:=true,
+ edu.buffalo.cse.jive.ui.view.diagram.contour;
+  uses:="org.eclipse.jface.action,
+   org.eclipse.jface.resource,
+   edu.buffalo.cse.jive.ui.view,
+   org.eclipse.gef"
+Import-Package: edu.buffalo.cse.jive.debug.model,
+ edu.buffalo.cse.jive.lib

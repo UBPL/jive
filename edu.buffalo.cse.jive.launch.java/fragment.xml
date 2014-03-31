@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+	<extension point="org.eclipse.debug.ui.launchConfigurationTabs">
+		<tab class="edu.buffalo.cse.jive.launch.ui.java.JavaTab"
+			group="org.eclipse.jdt.debug.ui.launchConfigurationTabGroup.localJavaApplication"
+			id="edu.buffalo.cse.jive.launch.ui.jiveTabJavaApplication" name="%jiveTabJavaApplication">
+			<placement after="org.eclipse.jdt.debug.ui.javaArgumentsTab">
+			</placement>
+		</tab>
+	</extension>
+	<extension point="org.eclipse.debug.core.launchDelegates">
+		<launchDelegate
+			delegate="edu.buffalo.cse.jive.internal.launch.java.JavaApplicationLaunchDelegate"
+			id="edu.buffalo.cse.jive.launching.localJavaApplication" name="%localJavaApplicationLaunchDelegate"
+			type="org.eclipse.jdt.launching.localJavaApplication">
+			<modeCombination modes="debug, jive"
+				perspective="edu.buffalo.cse.jive.ui.jivePerspective">
+			</modeCombination>
+		</launchDelegate>
+		<launchDelegate delegate="org.eclipse.jdt.launching.JavaLaunchDelegate"
+			id="edu.buffalo.cse.jive.launching.localJavaApplicationProxy" name="%localJavaApplicationLaunchDelegateProxy"
+			type="org.eclipse.jdt.launching.localJavaApplication">
+			<modeCombination modes="run, jive">
+			</modeCombination>
+		</launchDelegate>
+	</extension>
+	<extension point="org.eclipse.debug.ui.launchShortcuts">
+		<shortcut id="edu.buffalo.cse.jive.launch.javaApplicationShortcut"
+			class="edu.buffalo.cse.jive.launch.ui.java.JavaApplicationLaunchShortcutAdapter"
+			label="Java Application with JIVE" icon="icons/general/enabled/jive.gif"
+			modes="debug">
+			<contextualLaunch>
+				<enablement>
+					<with variable="selection">
+						<count value="1" />
+						<iterate>
+							<and>
+								<adapt type="org.eclipse.jdt.core.IJavaElement">
+									<test property="org.eclipse.jdt.core.isInJavaProject" />
+								</adapt>
+								<or>
+									<test property="org.eclipse.jdt.launching.hasMain" />
+									<test property="org.eclipse.jdt.launching.isContainer" />
+									<test property="org.eclipse.jdt.launching.isPackageFragment" />
+									<test property="org.eclipse.jdt.launching.isPackageFragmentRoot" />
+								</or>
+							</and>
+						</iterate>
+					</with>
+				</enablement>
+			</contextualLaunch>
+		</shortcut>
+	</extension>
+</plugin>

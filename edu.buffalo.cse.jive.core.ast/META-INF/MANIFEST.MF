@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JIVE AST Producer Extension
+Bundle-SymbolicName: edu.buffalo.cse.jive.core.ast
+Bundle-Version: 1.9.30.v20130525b
+Bundle-Vendor: University at Buffalo
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: edu.buffalo.cse.jive.model;bundle-version="1.9.0",
+ org.eclipse.jdt.core;bundle-version="3.5.0",
+ org.eclipse.core.runtime;bundle-version="3.5.0",
+ org.eclipse.core.resources;bundle-version="3.5.0"
+Export-Package: edu.buffalo.cse.jive.core.ast;
+  uses:="org.eclipse.jdt.core.dom,
+   org.eclipse.core.runtime,
+   edu.buffalo.cse.jive.model.factory,
+   edu.buffalo.cse.jive.internal.core.ast,
+   edu.buffalo.cse.jive.model",
+ edu.buffalo.cse.jive.internal.core.ast;x-internal:=true,
+ edu.buffalo.cse.jive.internal.core.ast.factory;x-internal:=true
+Import-Package: edu.buffalo.cse.jive.lib

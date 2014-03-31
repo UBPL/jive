@@ -1,0 +1,138 @@
+Jive implements viewers based on Eclipse's JFace IStructuredContentProvider.
+
+  ContourModelView, JiveEventLogView, and SequenceModelView must all provide 
+  model elements in the form of Object[].
+  
+  ContourModel and SequenceModel expose locking strategy. Internalize that by
+  introducing readRequest(), reading(), and readComplete() methods to be used 
+  instead, without exposing the implementation. readRequest() obtains a read 
+  lock from a reentrant read-write lock, reading tells whether the lock is 
+  held by the current thread, and readComplete() releases the lock.
+
+The contour model as a whole should be driven by a more fundamental object-oriented model.
+  As it stands, it doubles up as both the object-oriented model and a contour interpretation of the model.
+  While the contour interpretation is extremely valid, this coupling is artificial and complicates model derivation.
+
+1. Contour
+
+   Overview: Stateful contour within a model. Not to be confused with the list of known contours 
+   maintained by the event log.
+
+   Subclasses: JavaContour, InstanceContour, StaticContour, MethodContour.
+
+   * contour id (ContourID)
+   * contour members (List of ContourMember)
+   * enclosing model (ContourModel)
+   * isVirtual (if this is a virtual contour, InstanceContour only)
+   * threadId (ThreadID, MethodContour only)
+
+2. ContourCreationRecord
+  
+   Overview: Allows logging of contour creation (e.g. to a text file) for later recreation in a 
+   contour model.
+
+   Subclasses: MethodContourCreationRecord.
+
+   * contour id (ContourID)
+   * contour format (ContourFormat)
+   * thread id (ThreadID, for MethodContourCreationRecord only)
+
+3. ContourFormat
+
+   Overview: Describes the structure of a contour.
+
+   * contour member formats (List of ContourMemberFormat)
+
+4. ContourMember
+
+   Overview: Represents partial state of a contour. 
+   Subclasses: MethodDeclaration, Variable, and InnerClass.
+
+   * name (String)
+   * type (Type)
+   * value (Value)
+
+   * variable id (VariableID, for Variable only)
+
+5. ContourMemberFormat
+
+   Overview: Describes partial structure of a contour. 
+   Subclasses: MethodFormat, VariableFormat, and InnerClassFormat.
+
+   * name (String)
+   * type (Type)
+
+   * variable id (VariableID, for VariableFormat only)
+
+6. ContourModel
+
+   Overview: Container for contours, provides a snapshot of program execution at a
+   fixed instant in time. Provides notifications when a contour is added or removed 
+   or when some value changes.
+
+   Subclasses: InteractiveContourModel.
+
+   * add (adds a Contour under a parent Contour)
+   * children (List of Contour for a parent Contour or List of ContourID for a parent ContourID)
+   * contains (true if the model contains a Contour or ContourID)
+   * countChildren (counts the number of child nodes of a parent Contour)
+   * get (returns a Contour from a ContourID)
+   * getModelLock (ReentrantLock, called by clients before reading the model);
+   * getParent (returns a Contour for a child Contour or a ContourID for a child ContourID)
+   * roots (List of Contour)
+
+7. InteractiveContourModel
+
+   Overview: Adds informal temporal semantics to the contour model. Any temporal state (snapshot)
+   of the contour model is accessible. Conceptually, this interface can be seen as a temporal 
+   container for a sequence of ContourModel snapshots.
+
+   * canStepBackward (if stepping backward is possible from the current state)
+   * canStepForwardThroughRecordedStates (if stepping forward is possible from the current state)
+   * countTransactions (integer)
+   * eventNumber (returns the event for a transaction index)
+   * nextTransactionIndex (index of transaction to be played if stepForward is called)
+   * prevTransactionIndex (index of transaction to be played if stepBackward is called)
+   * readyToRecord (current state is the latest state) 
+   * stepForward (changes time by +1 unit and synchronizes internal state)
+   * stepBackward (changes time by -1 unit and synchronizes internal state)
+   * transactionIndex (returns the transaction index for an event number)
+
+   Observation: why are so many internal details exposed here? transaction index? event number?
+   wouldn't it be simpler to use just one, assuming they map one-to-one? Conceptually, this is
+   ideally replaced by the notion of logical time and a logical time line. Internally, each unit
+   of time would map to an atomic set of changes to the model.
+
+8. Type 
+
+   Overview: Describes types representable within the contour model.
+
+9. Value
+
+   Overview: Describes values representable within the contour model.
+
+   Subclasses: ContourReference, Encoded, Null, Uninitialized, MethodDefinition, InnerClassDefinition.
+
+   * contour id (ContourID in ContourReference)
+   * toString (Encoded)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

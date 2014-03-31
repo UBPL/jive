@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JIVE Console Command Support
+Bundle-SymbolicName: edu.buffalo.cse.jive.command;singleton:=true
+Bundle-Version: 1.9.30.v20130525b
+Bundle-Vendor: University at Buffalo
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: edu.buffalo.cse.jive.debug.jdi;bundle-version="1.9.1",
+ edu.buffalo.cse.jive.launch;bundle-version="1.9.1"
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: edu.buffalo.cse.jive.command.JiveCommandPlugin
+Import-Package: edu.buffalo.cse.jive.debug.model
+Export-Package: edu.buffalo.cse.jive.command;uses:="org.eclipse.core.runtime,org.osgi.framework,edu.buffalo.cse.jive.debug.model"

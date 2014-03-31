@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JIVE UI Search Extension
+Bundle-SymbolicName: edu.buffalo.cse.jive.ui.search;singleton:=true
+Bundle-Version: 1.9.30.v20130525b
+Bundle-Vendor: University at Buffalo
+Fragment-Host: edu.buffalo.cse.jive.ui
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: edu.buffalo.cse.jive.ui.search.form;uses:="edu.buffalo.cse.jive.ui.search,org.eclipse.swt.widgets,edu.buffalo.cse.jive.model",
+ edu.buffalo.cse.jive.ui.search.page;
+  uses:="edu.buffalo.cse.jive.ui.search.form,
+   edu.buffalo.cse.jive.ui.search,
+   org.eclipse.jface.viewers,
+   org.eclipse.swt.widgets"
+Import-Package: org.eclipse.jdt.core,
+ org.eclipse.jface.text

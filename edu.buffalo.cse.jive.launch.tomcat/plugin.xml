@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.debug.ui.launchConfigurationTabs">
+      <tab
+            class="edu.buffalo.cse.jive.launch.ui.tomcat.TomcatTab"
+            group="org.eclipse.jst.server.tomcat.ui.launchConfigurationTabGroup"
+            id="edu.buffalo.cse.jive.launch.ui.jiveTabTomcat"
+            name="%jiveTabTomcat">
+         <placement
+               after="org.eclipse.jdt.debug.ui.javaArgumentsTab">
+         </placement>
+      </tab>
+   </extension>
+   <extension
+         point="org.eclipse.debug.core.launchDelegates">
+      <launchDelegate
+            delegate="edu.buffalo.cse.jive.internal.launch.tomcat.TomcatApplicationLaunchDelegate"
+            id="edu.buffalo.cse.jive.launching.jiveTomcatApplication"
+            name="%tomcatLaunchDelegate"
+            type="org.eclipse.jst.server.tomcat.core.launchConfigurationType">
+         <modeCombination
+               modes="debug, jive"
+               perspective="edu.buffalo.cse.jive.ui.jivePerspective">
+         </modeCombination>
+      </launchDelegate>
+      <launchDelegate
+            delegate="org.eclipse.jst.server.tomcat.core.internal.TomcatLaunchConfigurationDelegate"
+            id="edu.buffalo.cse.jive.launching.jiveTomcatApplicationProxy"
+            name="%tomcatLaunchDelegateProxy"
+            type="org.eclipse.jst.server.tomcat.core.launchConfigurationType">
+         <modeCombination
+               modes="run, jive">
+         </modeCombination>
+      </launchDelegate>
+   </extension>
+</plugin>

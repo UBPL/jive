@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="edu.buffalo.cse.jive.preferences.ui.RootPreferencePage"
+            id="edu.buffalo.cse.jive.ui.preferences.RootPreferencePage"
+            name="JIVE">
+      </page>
+      <page
+            category="edu.buffalo.cse.jive.ui.preferences.RootPreferencePage"
+            class="edu.buffalo.cse.jive.preferences.ui.DefaultEventFiltersPreferencePage"
+            id="edu.buffalo.cse.jive.ui.preferences.DefaultEventFiltersPreferencePage"
+            name="Default Event Filters">
+      </page>
+      <page
+            category="edu.buffalo.cse.jive.ui.preferences.RootPreferencePage"
+            class="edu.buffalo.cse.jive.preferences.ui.SequenceDiagramPreferencePage"
+            id="edu.buffalo.cse.jive.ui.preferences.SequenceDiagramPreferencePage"
+            name="Sequence Diagram">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="edu.buffalo.cse.jive.preferences.PreferenceInitializer">
+      </initializer>
+   </extension>
+</plugin>

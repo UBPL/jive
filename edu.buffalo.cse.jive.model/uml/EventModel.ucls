@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.2" icons="true" automaticImage="GIF" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="false">  
+  <interface id="1" language="java" name="edu.buffalo.cse.jive.model.IEventModel.IAssignEvent" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IEventModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="396" y="511"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="2" language="java" name="edu.buffalo.cse.jive.model.IEventModel.IMethodTerminatorEvent" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IEventModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1288" y="484"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="3" language="java" name="edu.buffalo.cse.jive.model.IEventModel.IJiveEvent" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IEventModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1035" y="108"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="4" language="java" name="edu.buffalo.cse.jive.model.IEventModel.IEventProducer" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IEventModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="144" y="916"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="5" language="java" name="edu.buffalo.cse.jive.model.IEventModel.IMethodCallEvent" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IEventModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="592" y="837"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="6" language="java" name="edu.buffalo.cse.jive.model.IEventModel.IEventListener" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IEventModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="196" y="826"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="7" language="java" name="edu.buffalo.cse.jive.model.IEventModel.IMethodReturnedEvent" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IEventModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="769" y="182"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="8" language="java" name="edu.buffalo.cse.jive.model.IEventModel.ITypeLoadEvent" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IEventModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="786" y="36"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="9" language="java" name="edu.buffalo.cse.jive.model.IEventModel.IThreadStartEvent" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IEventModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1099" y="821"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="10" language="java" name="edu.buffalo.cse.jive.model.IEventModel.IFieldAssignEvent" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IEventModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="489" y="654"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="11" language="java" name="edu.buffalo.cse.jive.model.IEventModel.IThreadEndEvent" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IEventModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1462" y="484"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="12" language="java" name="edu.buffalo.cse.jive.model.IEventModel.IExceptionThrowEvent" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IEventModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1384" y="628"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="13" language="java" name="edu.buffalo.cse.jive.model.IEventModel.IMethodBodyEvent" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IEventModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="396" y="108"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="14" language="java" name="edu.buffalo.cse.jive.model.IEventModel.IVarAssignEvent" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IEventModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="299" y="654"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="15" language="java" name="edu.buffalo.cse.jive.model.IEventModel.IVarDeleteEvent" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IEventModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="579" y="503"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="16" language="java" name="edu.buffalo.cse.jive.model.IEventModel.IFieldReadEvent" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IEventModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="195" y="511"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="17" language="java" name="edu.buffalo.cse.jive.model.IEventModel.INewObjectEvent" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IEventModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1288" y="108"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="18" language="java" name="edu.buffalo.cse.jive.model.IEventModel.IMethodEnteredEvent" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IEventModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="211" y="251"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="19" language="java" name="edu.buffalo.cse.jive.model.IEventModel.ILineStepEvent" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IEventModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="96" y="108"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="20" language="java" name="edu.buffalo.cse.jive.model.IEventModel.IDataEvent" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IEventModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="396" y="363"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="21" language="java" name="edu.buffalo.cse.jive.model.IEventModel.ITerminatorEvent" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IEventModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1288" y="309"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="22" language="java" name="edu.buffalo.cse.jive.model.IEventModel.IInitiatorEvent" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IEventModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="847" y="565"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="23" language="java" name="edu.buffalo.cse.jive.model.IEventModel.IExceptionCatchEvent" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IEventModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="113" y="363"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="24" language="java" name="edu.buffalo.cse.jive.model.IEventModel.IMethodExitEvent" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IEventModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1196" y="628"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="25" language="java" name="edu.buffalo.cse.jive.model.IEventModel.ISystemStartEvent" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IEventModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="847" y="821"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="26" language="java" name="edu.buffalo.cse.jive.model.IEventModel.ISystemExitEvent" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IEventModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1112" y="484"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="27" language="java" name="edu.buffalo.cse.jive.model.IEventModel.ITransaction" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IEventModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="347" y="916"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <generalization id="28">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <generalization id="29">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="30">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="31">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="32">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="33">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="20"/>  
+  </generalization>  
+  <generalization id="34">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <generalization id="35">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <generalization id="36">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="37">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <generalization id="38">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="39">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <generalization id="40">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <generalization id="41">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="42">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="43">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <generalization id="44">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <generalization id="45">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="20"/>  
+  </generalization>  
+  <generalization id="46">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <generalization id="47">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="20"/>  
+  </generalization>  
+  <generalization id="48">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="49">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="50">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="20"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+    accessors="false" visibility="true">    
+    <attributes public="true" package="true" protected="false" private="false"/>    
+    <operations public="true" package="true" protected="false" private="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

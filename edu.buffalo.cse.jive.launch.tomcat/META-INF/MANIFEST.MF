@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JIVE Tomcat Launch Extension (Optional)
+Bundle-SymbolicName: edu.buffalo.cse.jive.launch.tomcat;singleton:=true
+Bundle-Version: 1.9.30.v20130525b
+Bundle-Vendor: University at Buffalo
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: edu.buffalo.cse.jive.debug.model,
+ edu.buffalo.cse.jive.model,
+ edu.buffalo.cse.jive.preferences,
+ org.eclipse.core.runtime,
+ org.eclipse.debug.core,
+ org.eclipse.jdt.launching,
+ org.eclipse.swt,
+ org.osgi.framework;version="1.6.0"
+Export-Package: edu.buffalo.cse.jive.internal.launch.tomcat;x-internal:=true,
+ edu.buffalo.cse.jive.launch.ui.tomcat;uses:="edu.buffalo.cse.jive.launch.ui"
+Require-Bundle: edu.buffalo.cse.jive.launch,
+ org.eclipse.jst.server.tomcat.core;bundle-version="1.1.300",
+ org.eclipse.debug.ui;bundle-version="3.5.0",
+ org.eclipse.wst.server.core;bundle-version="1.1.302",
+ org.eclipse.core.jobs;bundle-version="3.5.100"
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: edu.buffalo.cse.jive.launch.tomcat.JiveTomcatLaunchPlugin

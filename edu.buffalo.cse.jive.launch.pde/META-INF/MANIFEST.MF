@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JIVE PDE Launch Extension (Optional)
+Bundle-SymbolicName: edu.buffalo.cse.jive.launch.pde;singleton:=true
+Bundle-Version: 1.9.30.v20130525b
+Bundle-Localization: fragment
+Bundle-Vendor: University at Buffalo
+Fragment-Host: org.eclipse.pde.launching
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: edu.buffalo.cse.jive.debug.model,
+ org.eclipse.core.runtime,
+ org.eclipse.debug.core,
+ org.eclipse.jdt.launching
+Export-Package: edu.buffalo.cse.jive.internal.launch.pde;x-internal:=true,
+ edu.buffalo.cse.jive.launch.ui.pde;uses:="edu.buffalo.cse.jive.launch.ui"
+Require-Bundle: edu.buffalo.cse.jive.launch,
+ org.eclipse.debug.ui;bundle-version="3.5.0",
+ org.eclipse.ui;bundle-version="3.7.0"

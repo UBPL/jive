@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JIVE Trace Exporter
+Bundle-SymbolicName: edu.buffalo.cse.jive.exporter.trace;singleton:=true
+Bundle-Version: 1.9.30.v20130525b
+Bundle-Vendor: University at Buffalo
+Fragment-Host: edu.buffalo.cse.jive.exporter;bundle-version="1.9.29"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: edu.buffalo.cse.jive.model.jdbc.postgres
+Import-Package: edu.buffalo.cse.jive.lib

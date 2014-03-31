@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JIVE AST Model
+Bundle-SymbolicName: edu.buffalo.cse.jive.model.ast
+Bundle-Version: 1.9.30.v20130525b
+Bundle-Vendor: Universtiy at Buffalo
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: edu.buffalo.cse.jive.model
+Export-Package: edu.buffalo.cse.jive.model.ast
+Import-Package: edu.buffalo.cse.jive.lib

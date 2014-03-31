@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JIVE Applet Launch Extension
+Bundle-SymbolicName: edu.buffalo.cse.jive.launch.applet;singleton:=true
+Bundle-Version: 1.9.30.v20130525b
+Bundle-Vendor: University at Buffalo
+Fragment-Host: org.eclipse.jdt.launching
+Bundle-Localization: fragment
+Require-Bundle: edu.buffalo.cse.jive.launch,
+ org.eclipse.debug.ui;bundle-version="3.7.0",
+ org.eclipse.ui;bundle-version="3.7.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: edu.buffalo.cse.jive.internal.launch.java;x-internal:=true,
+ edu.buffalo.cse.jive.launch.ui.java;
+  uses:="org.eclipse.debug.core,
+   org.eclipse.jdt.debug.ui.launchConfigurations,
+   edu.buffalo.cse.jive.launch.ui,
+   org.eclipse.jdt.core"
+Import-Package: edu.buffalo.cse.jive.debug.model,
+ edu.buffalo.cse.jive.preferences,
+ org.eclipse.core.runtime,
+ org.eclipse.debug.core,
+ org.eclipse.jdt.core,
+ org.eclipse.jdt.debug.ui.launchConfigurations

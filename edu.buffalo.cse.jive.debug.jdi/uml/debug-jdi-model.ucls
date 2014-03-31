@@ -1,0 +1,251 @@
+<class-diagram version="1.0.5" icons="true" automaticImage="GIF" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="false">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" 
+    name="edu.buffalo.cse.jive.internal.debug.jdi.model.JDIEventHandlerDelegate" 
+    project="edu.buffalo.cse.jive.debug.jdi" 
+    file="/edu.buffalo.cse.jive.debug.jdi/src/edu/buffalo/cse/jive/internal/debug/jdi/model/JDIEventHandlerDelegate.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="864" y="1121"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" 
+    name="edu.buffalo.cse.jive.internal.debug.jdi.model.JiveEventDispatcher" project="edu.buffalo.cse.jive.debug.jdi" 
+    file="/edu.buffalo.cse.jive.debug.jdi/src/edu/buffalo/cse/jive/internal/debug/jdi/model/JiveEventDispatcher.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="229" y="522"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="edu.buffalo.cse.jive.internal.debug.jdi.model.JDIManager" 
+    project="edu.buffalo.cse.jive.debug.jdi" 
+    file="/edu.buffalo.cse.jive.debug.jdi/src/edu/buffalo/cse/jive/internal/debug/jdi/model/JDIManager.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="700" y="323"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" 
+    name="edu.buffalo.cse.jive.internal.debug.jdi.model.JDIEventHandler" project="edu.buffalo.cse.jive.debug.jdi" 
+    file="/edu.buffalo.cse.jive.debug.jdi/src/edu/buffalo/cse/jive/internal/debug/jdi/model/JDIEventHandler.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="926" y="664"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" name="edu.buffalo.cse.jive.internal.debug.jdi.model.ThreadSummary" 
+    project="edu.buffalo.cse.jive.debug.jdi" 
+    file="/edu.buffalo.cse.jive.debug.jdi/src/edu/buffalo/cse/jive/internal/debug/jdi/model/ThreadSummary.java" 
+    binary="false">    
+    <position height="271" width="367" x="1056" y="1018"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="6" corner="BOTTOM_RIGHT" language="java" 
+    name="edu.buffalo.cse.jive.internal.debug.jdi.model.ExecutionState.JiveStackFrame" 
+    project="edu.buffalo.cse.jive.debug.jdi" 
+    file="/edu.buffalo.cse.jive.debug.jdi/src/edu/buffalo/cse/jive/internal/debug/jdi/model/ExecutionState.java" 
+    binary="false">    
+    <position height="255" width="238" x="1463" y="1018"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="7" corner="BOTTOM_RIGHT" language="java" 
+    name="edu.buffalo.cse.jive.internal.debug.jdi.model.EventFactoryAdapter" project="edu.buffalo.cse.jive.debug.jdi" 
+    file="/edu.buffalo.cse.jive.debug.jdi/src/edu/buffalo/cse/jive/internal/debug/jdi/model/EventFactoryAdapter.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="229" y="1201"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="8" corner="BOTTOM_RIGHT" language="java" 
+    name="edu.buffalo.cse.jive.internal.debug.jdi.model.StaticModelDelegateForJDI" 
+    project="edu.buffalo.cse.jive.debug.jdi" 
+    file="/edu.buffalo.cse.jive.debug.jdi/src/edu/buffalo/cse/jive/internal/debug/jdi/model/StaticModelDelegateForJDI.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="685" y="1534"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="9" corner="BOTTOM_RIGHT" language="java" 
+    name="edu.buffalo.cse.jive.internal.debug.jdi.model.JiveEventDispatcher.LocalDispatcher" 
+    project="edu.buffalo.cse.jive.debug.jdi" 
+    file="/edu.buffalo.cse.jive.debug.jdi/src/edu/buffalo/cse/jive/internal/debug/jdi/model/JiveEventDispatcher.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="578" y="1073"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="10" corner="BOTTOM_RIGHT" language="java" name="edu.buffalo.cse.jive.internal.debug.jdi.model.ModelFilter" 
+    project="edu.buffalo.cse.jive.debug.jdi" 
+    file="/edu.buffalo.cse.jive.debug.jdi/src/edu/buffalo/cse/jive/internal/debug/jdi/model/ModelFilter.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="593" y="656"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="11" corner="BOTTOM_RIGHT" language="java" 
+    name="edu.buffalo.cse.jive.internal.debug.jdi.model.JiveEventDispatcher.DispatcherDelegate" 
+    project="edu.buffalo.cse.jive.debug.jdi" 
+    file="/edu.buffalo.cse.jive.debug.jdi/src/edu/buffalo/cse/jive/internal/debug/jdi/model/JiveEventDispatcher.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="578" y="1329"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <enumeration id="12" corner="BOTTOM_RIGHT" language="java" 
+    name="edu.buffalo.cse.jive.internal.debug.jdi.model.JDIModelFactoryImpl" project="edu.buffalo.cse.jive.debug.jdi" 
+    file="/edu.buffalo.cse.jive.debug.jdi/src/edu/buffalo/cse/jive/internal/debug/jdi/model/JDIModelFactoryImpl.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="700" y="92"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </enumeration>  
+  <class id="13" corner="BOTTOM_RIGHT" language="java" 
+    name="edu.buffalo.cse.jive.internal.debug.jdi.model.ExecutionState" project="edu.buffalo.cse.jive.debug.jdi" 
+    file="/edu.buffalo.cse.jive.debug.jdi/src/edu/buffalo/cse/jive/internal/debug/jdi/model/ExecutionState.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="1269" y="578"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <interface id="14" corner="BOTTOM_RIGHT" language="java" 
+    name="edu.buffalo.cse.jive.model.factory.IStaticModelFactory.IStaticModelDelegate" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/factory/IStaticModelFactory.java" binary="false">    
+    <position height="-1" width="-1" x="864" y="1327"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <class id="15" corner="BOTTOM_RIGHT" language="java" 
+    name="edu.buffalo.cse.jive.internal.core.ast.StaticModelDelegateForAST" project="edu.buffalo.cse.jive.core.ast" 
+    file="/edu.buffalo.cse.jive.core.ast/src/edu/buffalo/cse/jive/internal/core/ast/StaticModelDelegateForAST.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="1114" y="1534"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <association id="16">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="17" name="factory"/>      
+      <multiplicity id="18" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="19">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="20" name="adapterMap"/>      
+      <multiplicity id="21" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="22">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="23" name="threadSummaries"/>      
+      <multiplicity id="24" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="25">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="26">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="27">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <association id="28">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="29" name="inModelFrames"/>      
+      <multiplicity id="30" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="31">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="32" name="adapterForAST"/>      
+      <multiplicity id="33" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="34">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <association id="35">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="36" name="dispatcherDelegate"/>      
+      <multiplicity id="37" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <realization id="38">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <association id="39">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="40" name="delegate"/>      
+      <multiplicity id="41" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="42">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="43" name="dispatcher"/>      
+      <multiplicity id="44" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <realization id="45">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <classifier-display autosize="true" package="true" initial-value="false" signature="true" visibility="true">    
+    <attributes public="true" package="true" protected="false" private="false"/>    
+    <operations public="true" package="true" protected="false" private="false"/>  
+  </classifier-display>  
+  <association-display labels="false" multiplicity="false"/>
+</class-diagram>

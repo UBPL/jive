@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JIVE Offline Launch Extension
+Bundle-SymbolicName: edu.buffalo.cse.jive.launch.offline;singleton:=true
+Bundle-Localization: plugin
+Bundle-Version: 1.9.30.v20130525b
+Bundle-Vendor: University at Buffalo
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.debug.ui,
+ edu.buffalo.cse.jive.preferences;bundle-version="1.9.23"
+Import-Package: edu.buffalo.cse.jive.core.ast,
+ edu.buffalo.cse.jive.debug.model,
+ edu.buffalo.cse.jive.launch,
+ edu.buffalo.cse.jive.model,
+ edu.buffalo.cse.jive.model.factory,
+ edu.buffalo.cse.jive.model.store,
+ org.eclipse.core.runtime;version="3.4.0",
+ org.eclipse.core.runtime.jobs,
+ org.eclipse.jdt.core,
+ org.eclipse.jdt.debug.core,
+ org.eclipse.jdt.launching,
+ org.eclipse.swt.graphics,
+ org.eclipse.swt.widgets,
+ org.eclipse.ui
+Export-Package: edu.buffalo.cse.jive.internal.launch.offline;x-internal:=true,
+ edu.buffalo.cse.jive.launch.offline;uses:="edu.buffalo.cse.jive.model.factory,edu.buffalo.cse.jive.model",
+ edu.buffalo.cse.jive.launch.ui.offline;
+  uses:="org.eclipse.debug.core,
+   org.eclipse.debug.ui,
+   org.eclipse.swt.graphics,
+   org.eclipse.swt.widgets"

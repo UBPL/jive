@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<fragment>
+   <extension
+         point="edu.buffalo.cse.jive.ui.searchPages">
+      <page
+            class="edu.buffalo.cse.jive.ui.search.page.VariableChangedSearchPage"
+            icon="icons/search/enabled/assign.gif"
+            id="edu.buffalo.cse.jive.ui.variableChangedSearchPage"
+            name="Variable Changed">
+      </page>
+      <page
+            class="edu.buffalo.cse.jive.ui.search.page.LineExecutedSearchPage"
+            icon="icons/search/enabled/bos.gif"
+            id="edu.buffalo.cse.jive.ui.lineExecutedSearchPage"
+            name="Line Executed">
+      </page>
+      <page
+            class="edu.buffalo.cse.jive.ui.search.page.MethodCalledSearchPage"
+            icon="icons/search/enabled/call.gif"
+            id="edu.buffalo.cse.jive.ui.methodCalledSearchPage"
+            name="Method Called">
+      </page>
+      <page
+            class="edu.buffalo.cse.jive.ui.search.page.MethodReturnedSearchPage"
+            icon="icons/search/enabled/return.gif"
+            id="edu.buffalo.cse.jive.ui.methodReturnedSearchPage"
+            name="Method Returned">
+      </page>
+      <page
+            class="edu.buffalo.cse.jive.ui.search.page.ObjectCreatedSearchPage"
+            icon="icons/search/enabled/new.gif"
+            id="edu.buffalo.cse.jive.ui.objectCreatedSearchPage"
+            name="Object Created">
+      </page>
+      <page
+            class="edu.buffalo.cse.jive.ui.search.page.InvariantViolatedSearchPage"
+            icon="icons/search/enabled/invariant_violated.gif"
+            id="edu.buffalo.cse.jive.ui.invariantViolatedSearchPage"
+            name="Class Invariant">
+      </page>
+      <page
+            class="edu.buffalo.cse.jive.ui.search.page.ExceptionThrownSearchPage"
+            icon="icons/search/enabled/throw.gif"
+            id="edu.buffalo.cse.jive.ui.exceptionThrownSearchPage"
+            name="Exception Thrown">
+      </page>
+      <page
+            class="edu.buffalo.cse.jive.ui.search.page.ExceptionCaughtSearchPage"
+            icon="icons/search/enabled/catch.gif"
+            id="edu.buffalo.cse.jive.ui.exceptionCaughtSearchPage"
+            name="Exception Caught">
+      </page>
+      <page
+            class="edu.buffalo.cse.jive.ui.search.page.SlicingSearchPage"
+            icon="icons/search/enabled/slice.gif"
+            id="edu.buffalo.cse.jive.ui.slicingPage"
+            name="Dynamic Slice">
+      </page>
+   </extension>
+</fragment>

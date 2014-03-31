@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.debug.ui.launchConfigurationTabs">
+      <tab
+            class="edu.buffalo.cse.jive.launch.ui.pde.PDETab"
+            group="org.eclipse.pde.ui.launcher.WorkbenchLauncherTabGroup"
+            id="edu.buffalo.cse.jive.launch.ui.jiveTabPDE"
+            name="%jiveTabPDE">
+         <placement
+               after="org.eclipse.jdt.debug.ui.javaArgumentsTab">
+         </placement>
+      </tab>
+   </extension>
+   <extension
+         point="org.eclipse.debug.core.launchDelegates">
+      <launchDelegate
+            delegate="edu.buffalo.cse.jive.internal.launch.pde.EclipseApplicationLaunchDelegate"
+            id="edu.buffalo.cse.jive.launch.jivePDEApplication"
+            name="%pdeApplicationLaunchDelegate"
+            type="org.eclipse.pde.ui.RuntimeWorkbench">
+         <modeCombination
+               modes="debug, jive"
+               perspective="edu.buffalo.cse.jive.ui.jivePerspective">
+         </modeCombination>
+      </launchDelegate>
+      <launchDelegate
+            delegate="org.eclipse.pde.launching.EclipseApplicationLaunchConfiguration"
+            id="edu.buffalo.cse.jive.launch.jivePDEApplicationProxy"
+            name="%pdeApplicationLaunchDelegateProxy"
+            type="org.eclipse.pde.ui.RuntimeWorkbench">
+         <modeCombination
+               modes="run, jive">
+         </modeCombination>
+      </launchDelegate>
+   </extension>
+</plugin>

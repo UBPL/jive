@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.debug.ui.launchConfigurationTabs">
+      <tab
+            class="edu.buffalo.cse.jive.launch.ui.junit.JUnitTab"
+            group="org.eclipse.jdt.junit.launchConfigurationTabGroup.junit"
+            id="edu.buffalo.cse.jive.launch.ui.jiveTabJUnitTest"
+            name="%jiveTabJUnitTest">
+         <placement
+               after="org.eclipse.jdt.debug.ui.javaArgumentsTab">
+         </placement>
+      </tab>
+   </extension>
+   <extension
+         point="org.eclipse.debug.core.launchDelegates">
+      <launchDelegate
+            delegate="edu.buffalo.cse.jive.internal.launch.junit.JUnitLaunchDelegate"
+            id="edu.buffalo.cse.jive.launching.junitTest"
+            name="%junitTestLaunchDelegate"
+            type="org.eclipse.jdt.junit.launchconfig">
+         <modeCombination
+               modes="debug, jive"
+               perspective="edu.buffalo.cse.jive.ui.jivePerspective">
+         </modeCombination>
+      </launchDelegate>
+      <launchDelegate
+            delegate="org.eclipse.jdt.junit.launcher.JUnitLaunchConfigurationDelegate"
+            id="edu.buffalo.cse.jive.launching.junitTestProxy"
+            name="%junitTestLaunchDelegateProxy"
+            type="org.eclipse.jdt.junit.launchconfig">
+         <modeCombination
+               modes="run, jive">
+         </modeCombination>
+      </launchDelegate>
+   </extension>
+   <extension
+         point="org.eclipse.debug.ui.launchShortcuts">
+      <shortcut
+            label="Debug JUnit Test with JIVE"
+            icon="icons/general/enabled/jive.gif"
+            class="edu.buffalo.cse.jive.launch.ui.junit.JUnitLaunchShortcutAdapter"
+            modes="debug"
+            id="edu.buffalo.cse.jive.launch.junitShortcut">
+         <contextualLaunch>
+            <enablement>
+               <with variable="selection">
+                  <count value="1"/>
+               	  <iterate>
+                     <adapt type="org.eclipse.jdt.core.IJavaElement">
+		                <test property="org.eclipse.jdt.core.isInJavaProject"/>
+		                <test property="org.eclipse.jdt.core.hasTypeOnClasspath" value="junit.framework.Test"/>
+		                <test property="org.eclipse.jdt.junit.canLaunchAsJUnit" forcePluginActivation="true"/>
+		             </adapt>
+		          </iterate>
+               </with>
+            </enablement>
+         </contextualLaunch>
+         <configurationType
+               id="org.eclipse.jdt.junit.launchconfig">
+         </configurationType>
+      </shortcut>
+   </extension>
+</plugin>

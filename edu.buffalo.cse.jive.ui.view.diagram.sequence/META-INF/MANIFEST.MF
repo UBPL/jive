@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JIVE UI Sequence Diagram View
+Bundle-SymbolicName: edu.buffalo.cse.jive.ui.view.diagram.sequence;singleton:=true
+Bundle-Version: 1.9.30.v20130525b
+Bundle-Vendor: University at Buffalo
+Fragment-Host: edu.buffalo.cse.jive.ui
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: edu.buffalo.cse.jive.internal.ui.view.diagram.sequence.actions;x-internal:=true,
+ edu.buffalo.cse.jive.internal.ui.view.diagram.sequence.editparts;x-internal:=true,
+ edu.buffalo.cse.jive.internal.ui.view.diagram.sequence.figures;x-internal:=true,
+ edu.buffalo.cse.jive.ui.view.diagram.sequence;
+  uses:="org.eclipse.jface.action,
+   org.eclipse.jface.resource,
+   edu.buffalo.cse.jive.ui,
+   edu.buffalo.cse.jive.ui.view,
+   org.eclipse.gef,
+   edu.buffalo.cse.jive.model"
+Import-Package: edu.buffalo.cse.jive.lib

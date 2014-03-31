@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JIVE OSGI Console Extension
+Bundle-SymbolicName: edu.buffalo.cse.jive.console;singleton:=true
+Bundle-Version: 1.9.30.v20130525b
+Bundle-Activator: edu.buffalo.cse.jive.console.JiveConsolePlugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: edu.buffalo.cse.jive.console;uses:="org.eclipse.ui,org.eclipse.osgi.framework.console,org.osgi.framework"
+Bundle-Vendor: University at Buffalo
+Import-Package: edu.buffalo.cse.jive.debug.model,
+ edu.buffalo.cse.jive.launch,
+ org.eclipse.core.runtime;version="3.4.0",
+ org.eclipse.ui
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.osgi;bundle-version="3.5.0",
+ edu.buffalo.cse.jive.model;bundle-version="1.9.1",
+ edu.buffalo.cse.jive.command;bundle-version="1.9.1"

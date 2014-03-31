@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JIVE Console Stop Command
+Bundle-SymbolicName: edu.buffalo.cse.jive.command.stop;singleton:=true
+Bundle-Version: 1.9.30.v20130525b
+Bundle-Vendor: University at Buffalo
+Fragment-Host: edu.buffalo.cse.jive.command;bundle-version="1.9.29"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<fragment>
+   <extension
+         id="edu.buffalo.cse.jive.ui.jiveViews"
+         name="JIVE Views"
+         point="org.eclipse.ui.views">
+      <view
+            allowMultiple="false"
+            category="edu.buffalo.cse.jive.ui.jiveCategory"
+            class="edu.buffalo.cse.jive.ui.view.model.sequence.SequenceModelView"
+            icon="icons/general/enabled/tree.gif"
+            id="edu.buffalo.cse.jive.ui.sequenceModelView"
+            name="Sequence Model"
+            restorable="true">
+      </view>
+   </extension>
+
+</fragment>

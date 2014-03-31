@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description url="http://www.cse.buffalo.edu/jive/update">
+      JIVE Update Site
+   </description>
+   <feature url="features/edu.buffalo.cse.jive_0.1.0.v20071020.jar" id="edu.buffalo.cse.jive" version="0.1.0.v20071020">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_0.1.1.v20071113.jar" id="edu.buffalo.cse.jive" version="0.1.1.v20071113">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_0.1.2.v20071114.jar" id="edu.buffalo.cse.jive" version="0.1.2.v20071114">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_0.2.0.v20071121.jar" id="edu.buffalo.cse.jive" version="0.2.0.v20071121">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_0.2.1.v20071215.jar" id="edu.buffalo.cse.jive" version="0.2.1.v20071215">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_0.2.2.v20080116.jar" id="edu.buffalo.cse.jive" version="0.2.2.v20080116">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_0.3.0.v20080303.jar" id="edu.buffalo.cse.jive" version="0.3.0.v20080303">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_0.3.1.v20080417.jar" id="edu.buffalo.cse.jive" version="0.3.1.v20080417">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_0.4.1.v20100902.jar" id="edu.buffalo.cse.jive" version="0.4.1.v20100902">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_0.4.2.v20100914.jar" id="edu.buffalo.cse.jive" version="0.4.2.v20100914">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_0.4.2.v20100928.jar" id="edu.buffalo.cse.jive" version="0.4.2.v20100928">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_1.9.0.v20110517.jar" id="edu.buffalo.cse.jive" version="1.9.0.v20110517">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_1.9.0.v20110522b.jar" id="edu.buffalo.cse.jive" version="1.9.0.v20110522b">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_1.9.0.v20110523b.jar" id="edu.buffalo.cse.jive" version="1.9.0.v20110523b">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_1.9.0.v20110524b.jar" id="edu.buffalo.cse.jive" version="1.9.0.v20110524b">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_1.9.0.v20111109b.jar" id="edu.buffalo.cse.jive" version="1.9.0.v20111109b">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_1.9.1.v20111117b.jar" id="edu.buffalo.cse.jive" version="1.9.1.v20111117b">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_1.9.6.v20120130b.jar" id="edu.buffalo.cse.jive" version="1.9.6.v20120130b">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_1.9.7.v20120131b.jar" id="edu.buffalo.cse.jive" version="1.9.7.v20120131b">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_1.9.7.v20120206b.jar" id="edu.buffalo.cse.jive" version="1.9.7.v20120206b">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_1.9.7.v20120207b.jar" id="edu.buffalo.cse.jive" version="1.9.7.v20120207b">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_1.9.8.v20120207b.jar" id="edu.buffalo.cse.jive" version="1.9.8.v20120207b">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_1.9.9.v20120207b.jar" id="edu.buffalo.cse.jive" version="1.9.9.v20120207b">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_1.9.10.v20120213b.jar" id="edu.buffalo.cse.jive" version="1.9.10.v20120213b">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_1.9.11.v20120219b.jar" id="edu.buffalo.cse.jive" version="1.9.11.v20120219b">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_1.9.13.v20120307b.jar" id="edu.buffalo.cse.jive" version="1.9.13.v20120307b">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_1.9.14.v20120309b.jar" id="edu.buffalo.cse.jive" version="1.9.14.v20120309b">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_1.9.16.v20120313b.jar" id="edu.buffalo.cse.jive" version="1.9.16.v20120313b">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_1.9.17.v20120316b.jar" id="edu.buffalo.cse.jive" version="1.9.17.v20120316b">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_1.9.18.v20120318b.jar" id="edu.buffalo.cse.jive" version="1.9.18.v20120318b">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_1.9.19.v20120319b.jar" id="edu.buffalo.cse.jive" version="1.9.19.v20120319b">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_1.9.20.v20120329b.jar" id="edu.buffalo.cse.jive" version="1.9.20.v20120329b">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_1.9.21.v20120404b.jar" id="edu.buffalo.cse.jive" version="1.9.21.v20120404b">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_1.9.22.v20120413b.jar" id="edu.buffalo.cse.jive" version="1.9.22.v20120413b">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_1.9.23.v20120413b.jar" id="edu.buffalo.cse.jive" version="1.9.23.v20120413b">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive_1.9.25.v20120619b.jar" id="edu.buffalo.cse.jive" version="1.9.25.v20120619b">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive.launch.pde_1.9.14.v20120309b.jar" id="edu.buffalo.cse.jive.launch.pde" version="1.9.14.v20120309b">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive.launch.tomcat_1.9.14.v20120309b.jar" id="edu.buffalo.cse.jive.launch.tomcat" version="1.9.14.v20120309b">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive.launch.tomcat_1.9.15.v20120329b.jar" id="edu.buffalo.cse.jive.launch.tomcat" version="1.9.15.v20120329b">
+      <category name="JIVE"/>
+   </feature>
+   <feature url="features/edu.buffalo.cse.jive.importer.fiji_1.9.25.v20120619b.jar" id="edu.buffalo.cse.jive.importer.fiji" version="1.9.25.v20120619b">
+      <category name="JIVE"/>
+   </feature>
+   <category-def name="JIVE" label="JIVE Features">
+      <description>
+         All JIVE features.
+      </description>
+   </category-def>
+</site>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true">  
+  <interface id="1" language="java" name="edu.buffalo.cse.jive.model.IQueryModel.ExceptionQueryParams" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IQueryModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="116" y="65"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="2" language="java" name="edu.buffalo.cse.jive.model.IQueryModel.VariableChangedQueryParams" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IQueryModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="414" y="300"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="3" language="java" name="edu.buffalo.cse.jive.model.IQueryModel.MethodReturnedQueryParams" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IQueryModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="698" y="463"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="4" language="java" name="edu.buffalo.cse.jive.model.IQueryModel.LineExecutedQueryParams" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IQueryModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="116" y="255"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="5" language="java" name="edu.buffalo.cse.jive.model.IQueryModel.ObjectCreatedQueryParams" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IQueryModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="969" y="63"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="6" language="java" name="edu.buffalo.cse.jive.model.IQueryModel.MethodQueryParams" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IQueryModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="698" y="264"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="7" language="java" name="edu.buffalo.cse.jive.model.IQueryModel.SlicingQueryParams" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IQueryModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="698" y="55"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="8" language="java" name="edu.buffalo.cse.jive.model.IQueryModel.EventQuery" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IQueryModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="414" y="74"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="9" language="java" name="edu.buffalo.cse.jive.model.IQueryModel.InvariantViolatedQueryParams" 
+    project="edu.buffalo.cse.jive.model" 
+    file="/edu.buffalo.cse.jive.model/src/edu/buffalo/cse/jive/model/IQueryModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="969" y="300"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <generalization id="10">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="false" private="false"/>    
+    <operations public="true" package="true" protected="false" private="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

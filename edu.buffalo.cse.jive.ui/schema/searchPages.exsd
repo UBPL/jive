@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Schema file written by PDE -->
+<schema targetNamespace="edu.buffalo.cse.jive.ui" xmlns="http://www.w3.org/2001/XMLSchema">
+<annotation>
+      <appInfo>
+         <meta.schema plugin="edu.buffalo.cse.jive.ui" id="searchPages" name="JIVE Search Pages"/>
+      </appInfo>
+      <documentation>
+         The JIVE Search tab in the Search Dialog allows for an extensible set of queries over a program&apos;s execution history or execution state.  This extension point is used to add search pages to the JIVE Search tab.  A search page defines the search query name and image to appear in the query list, and it also defines the query input controls revealed when the query is selected.
+&lt;p&gt;
+&lt;em&gt;NOTE:  This extension point is experimental.  Changes may be made to it in future releases.&lt;/em&gt;
+      </documentation>
+   </annotation>
+
+   <element name="extension">
+      <annotation>
+         <appInfo>
+            <meta.element />
+         </appInfo>
+      </annotation>
+      <complexType>
+         <sequence minOccurs="1" maxOccurs="unbounded">
+            <element ref="page"/>
+         </sequence>
+         <attribute name="point" type="string" use="required">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="id" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="name" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+               <appInfo>
+                  <meta.attribute translatable="true"/>
+               </appInfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <element name="page">
+      <annotation>
+         <appInfo>
+            <meta.element labelAttribute="name" icon="icon"/>
+         </appInfo>
+      </annotation>
+      <complexType>
+         <attribute name="id" type="string" use="required">
+            <annotation>
+               <documentation>
+                  a unique identifier used to reference the search page
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="name" type="string" use="required">
+            <annotation>
+               <documentation>
+                  the name of the search query to display in the query list
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="class" type="string" use="required">
+            <annotation>
+               <documentation>
+                  a search page class created for use by the search dialog
+               </documentation>
+               <appInfo>
+                  <meta.attribute kind="java" basedOn=":edu.buffalo.cse.jive.ui.search.IJiveSearchPage"/>
+               </appInfo>
+            </annotation>
+         </attribute>
+         <attribute name="icon" type="string">
+            <annotation>
+               <documentation>
+                  the icon of the search query to display in the query list
+               </documentation>
+               <appInfo>
+                  <meta.attribute kind="resource"/>
+               </appInfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <annotation>
+      <appInfo>
+         <meta.section type="since"/>
+      </appInfo>
+      <documentation>
+         0.2.0.v20071121
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appInfo>
+         <meta.section type="examples"/>
+      </appInfo>
+      <documentation>
+         The following is an example of the Search Query Pages extension point usage:
+&lt;p&gt;
+&lt;pre&gt;
+    &lt;extension point=&quot;edu.buffalo.cse.jive.ui.searchPages&quot;&gt;
+        &lt;page
+            id=&quot;com.example.xyz.mySearchPage&quot;
+            name=&quot;Example Query&quot;
+            class=&quot;com.example.xyz.ExampleSearchPage&quot;
+            icon=&quot;icons/example.gif&quot;/&gt;
+    &lt;/extension&gt;
+&lt;/pre&gt;
+&lt;/p&gt;
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appInfo>
+         <meta.section type="apiInfo"/>
+      </appInfo>
+      <documentation>
+         Plug-ins extending this extension point must provide a class implementing &lt;samp&gt;edu.buffalo.cse.jive.ui.search.IJiveSearchPage&lt;/samp&gt; as the value of the &lt;samp&gt;class&lt;/samp&gt; attribute.
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appInfo>
+         <meta.section type="implementation"/>
+      </appInfo>
+      <documentation>
+         An implementation of this extension point is supplied in the &lt;samp&gt;edu.buffalo.cse.jive.ui.search&lt;/samp&gt; fragment.
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appInfo>
+         <meta.section type="copyright"/>
+      </appInfo>
+      <documentation>
+         Copyright © 2007--2012 University at Buffalo, The State University of New York.  All rights reserved.
+      </documentation>
+   </annotation>
+
+</schema>

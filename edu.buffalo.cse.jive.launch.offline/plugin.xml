@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="offlineImporters" name="JIVE Offline Importers" schema="schema/offlineImporters.exsd"/>
+   <extension
+         point="org.eclipse.debug.core.launchConfigurationTypes">
+      <launchConfigurationType
+            id="edu.buffalo.cse.jive.launch.offline.launchConfigurationType"
+            modes="run, debug"
+            delegate="edu.buffalo.cse.jive.internal.launch.offline.OfflineLaunchConfigurationDelegate"
+            name="%offlineLaunchConfigurationType">
+      </launchConfigurationType>
+   </extension>
+   <extension point="org.eclipse.debug.ui.launchConfigurationTypeImages">
+      <launchConfigurationTypeImage
+          icon="icons/general/enabled/jive.gif"
+          configTypeID="edu.buffalo.cse.jive.launch.offline.launchConfigurationType"
+          id="edu.buffalo.cse.jive.launch.offline.launchConfigurationTypeImage">
+      </launchConfigurationTypeImage>
+   </extension>
+   <extension
+         point="org.eclipse.debug.ui.launchConfigurationTabGroups">
+      <launchConfigurationTabGroup
+            class="edu.buffalo.cse.jive.launch.ui.offline.OfflineLaunchConfigurationTabGroup"
+            id="edu.buffalo.cse.jive.launch.offline.launchConfigurationTabGroup"
+            type="edu.buffalo.cse.jive.launch.offline.launchConfigurationType">
+      </launchConfigurationTabGroup>
+   </extension>
+</plugin>

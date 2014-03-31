@@ -1,0 +1,74 @@
+<class-diagram version="1.0.5" icons="true" automaticImage="GIF" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="false" dependencies="true" nesting-relationships="false">  
+  <interface id="1" corner="BOTTOM_RIGHT" language="java" name="edu.buffalo.cse.jive.core.ast.IResolvedVariable" 
+    project="edu.buffalo.cse.jive.core.ast" 
+    file="/edu.buffalo.cse.jive.core.ast/src/edu/buffalo/cse/jive/core/ast/IResolvedVariable.java" binary="false">    
+    <position height="-1" width="-1" x="254" y="773"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="2" corner="BOTTOM_RIGHT" language="java" name="edu.buffalo.cse.jive.core.ast.IResolvedDependence" 
+    project="edu.buffalo.cse.jive.core.ast" 
+    file="/edu.buffalo.cse.jive.core.ast/src/edu/buffalo/cse/jive/core/ast/IResolvedDependence.java" binary="false">    
+    <position height="-1" width="-1" x="255" y="463"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="3" corner="BOTTOM_RIGHT" language="java" name="edu.buffalo.cse.jive.core.ast.IMethodDependenceGraph" 
+    project="edu.buffalo.cse.jive.core.ast" 
+    file="/edu.buffalo.cse.jive.core.ast/src/edu/buffalo/cse/jive/core/ast/IMethodDependenceGraph.java" binary="false">    
+    <position height="-1" width="-1" x="255" y="266"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="4" corner="BOTTOM_RIGHT" language="java" name="edu.buffalo.cse.jive.core.ast.IResolvedCall" 
+    project="edu.buffalo.cse.jive.core.ast" 
+    file="/edu.buffalo.cse.jive.core.ast/src/edu/buffalo/cse/jive/core/ast/IResolvedCall.java" binary="false">    
+    <position height="-1" width="-1" x="578" y="646"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" 
+    name="edu.buffalo.cse.jive.internal.core.ast.StaticModelDelegateForAST" project="edu.buffalo.cse.jive.core.ast" 
+    file="/edu.buffalo.cse.jive.core.ast/src/edu/buffalo/cse/jive/internal/core/ast/StaticModelDelegateForAST.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="254" y="100"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <dependency id="6">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="7">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="8">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="9">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="10">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <classifier-display autosize="true" package="true" initial-value="false" signature="true" visibility="true">    
+    <attributes public="true" package="true" protected="false" private="false"/>    
+    <operations public="true" package="true" protected="false" private="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

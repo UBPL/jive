@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="edu.buffalo.cse.jive.feature.importer.jivere"
+      label="Jive Regular Expression Log Importer"
+      version="1.0.0.qualifier"
+      provider-name="University at Buffalo">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <url>
+      <update label="JIVE Update Site" url="http://www.cse.buffalo.edu/jive/update/"/>
+   </url>
+
+   <plugin
+         id="edu.buffalo.cse.jive.importer.jivere"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+</feature>
