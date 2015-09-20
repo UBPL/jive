@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: JIVE Java Launch Extension
 Bundle-SymbolicName: edu.buffalo.cse.jive.launch.java;singleton:=true
-Bundle-Version: 1.9.30.v20130525b
+Bundle-Version: 1.9.31.v20150920b
 Bundle-Vendor: University at Buffalo
 Fragment-Host: org.eclipse.jdt.launching
 Bundle-Localization: fragment

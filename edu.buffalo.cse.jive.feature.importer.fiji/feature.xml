@@ -2,7 +2,7 @@
 <feature
       id="edu.buffalo.cse.jive.importer.fiji"
       label="JIVE Fiji Support (Optional)"
-      version="1.9.30.v20130525b"
+      version="1.9.31.v20150920b"
       provider-name="University at Buffalo">
 
    <description url="http://www.example.com/description">

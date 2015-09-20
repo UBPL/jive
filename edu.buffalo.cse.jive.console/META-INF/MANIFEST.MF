@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: JIVE OSGI Console Extension
 Bundle-SymbolicName: edu.buffalo.cse.jive.console;singleton:=true
-Bundle-Version: 1.9.30.v20130525b
+Bundle-Version: 1.9.31.v20150920b
 Bundle-Activator: edu.buffalo.cse.jive.console.JiveConsolePlugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Export-Package: edu.buffalo.cse.jive.console;uses:="org.eclipse.ui,org.eclipse.osgi.framework.console,org.osgi.framework"

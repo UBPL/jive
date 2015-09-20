@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: JIVE JDI Debug Extension
 Bundle-SymbolicName: edu.buffalo.cse.jive.debug.jdi
-Bundle-Version: 1.9.30.v20130525b
+Bundle-Version: 1.9.31.v20150920b
 Bundle-Activator: edu.buffalo.cse.jive.debug.JiveDebugPlugin
 Bundle-Vendor: University at Buffalo
 Require-Bundle: org.eclipse.core.runtime;bundle-version="3.5.0";visibility:=reexport,

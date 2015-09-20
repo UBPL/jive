@@ -2,7 +2,7 @@
 <feature
       id="edu.buffalo.cse.jive"
       label="JIVE Platform (Required)"
-      version="1.9.30.v20130525b"
+      version="1.9.31.v20150920b"
       provider-name="University at Buffalo">
 
    <description url="http://www.cse.buffalo.edu/jive">
@@ -10,7 +10,7 @@
    </description>
 
    <copyright>
-      Copyright © 2007-12 University at Buffalo, The State University of New York.  All rights reserved.
+      Copyright © 2007-15 University at Buffalo, The State University of New York.  All rights reserved.
    </copyright>
 
    <license url="http://www.eclipse.org/legal/epl-v10.html">
@@ -141,56 +141,56 @@ This Agreement is governed by the laws of the State of New York and the intellec
          id="edu.buffalo.cse.jive.model"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          unpack="false"/>
 
    <plugin
          id="edu.buffalo.cse.jive.launch"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          unpack="false"/>
 
    <plugin
          id="edu.buffalo.cse.jive.ui"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          unpack="false"/>
 
    <plugin
          id="edu.buffalo.cse.jive.console"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          unpack="false"/>
 
    <plugin
          id="edu.buffalo.cse.jive.model.store"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          unpack="false"/>
 
    <plugin
          id="edu.buffalo.cse.jive.model.store.memory"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          unpack="false"/>
 
    <plugin
          id="edu.buffalo.cse.jive.core.ast"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          unpack="false"/>
 
    <plugin
          id="edu.buffalo.cse.jive.ui.view.model.contour"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          fragment="true"
          unpack="false"/>
 
@@ -198,7 +198,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
          id="edu.buffalo.cse.jive.ui.view.diagram.contour"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          fragment="true"
          unpack="false"/>
 
@@ -206,7 +206,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
          id="edu.buffalo.cse.jive.ui.view.diagram.sequence"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          fragment="true"
          unpack="false"/>
 
@@ -214,7 +214,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
          id="edu.buffalo.cse.jive.ui.view.model.sequence"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          fragment="true"
          unpack="false"/>
 
@@ -222,7 +222,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
          id="edu.buffalo.cse.jive.ui.view.model.trace"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          fragment="true"
          unpack="false"/>
 
@@ -230,7 +230,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
          id="edu.buffalo.cse.jive.ui.search"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          fragment="true"
          unpack="false"/>
 
@@ -238,49 +238,49 @@ This Agreement is governed by the laws of the State of New York and the intellec
          id="edu.buffalo.cse.jive.practql"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          unpack="false"/>
 
    <plugin
          id="edu.buffalo.cse.jive.preferences"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          unpack="false"/>
 
    <plugin
          id="edu.buffalo.cse.jive.debug.model"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          unpack="false"/>
 
    <plugin
          id="edu.buffalo.cse.jive.debug.jdi"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          unpack="false"/>
 
    <plugin
          id="edu.buffalo.cse.jive.model.store.db"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          unpack="false"/>
 
    <plugin
          id="edu.buffalo.cse.jive.launch.offline"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          unpack="false"/>
 
    <plugin
          id="edu.buffalo.cse.jive.launch.applet"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          fragment="true"
          unpack="false"/>
 
@@ -288,7 +288,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
          id="edu.buffalo.cse.jive.launch.java"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          fragment="true"
          unpack="false"/>
 
@@ -296,7 +296,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
          id="edu.buffalo.cse.jive.launch.junit"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          fragment="true"
          unpack="false"/>
 
@@ -304,7 +304,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
          id="edu.buffalo.cse.jive.launch.remote"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          fragment="true"
          unpack="false"/>
 
@@ -312,21 +312,21 @@ This Agreement is governed by the laws of the State of New York and the intellec
          id="edu.buffalo.cse.jive.model.jdbc.pgsql"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          unpack="false"/>
 
    <plugin
          id="edu.buffalo.cse.jive.command"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          unpack="false"/>
 
    <plugin
          id="edu.buffalo.cse.jive.command.status"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          fragment="true"
          unpack="false"/>
 
@@ -334,7 +334,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
          id="edu.buffalo.cse.jive.command.export"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          fragment="true"
          unpack="false"/>
 
@@ -342,7 +342,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
          id="edu.buffalo.cse.jive.command.help"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          fragment="true"
          unpack="false"/>
 
@@ -350,7 +350,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
          id="edu.buffalo.cse.jive.command.slice"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          fragment="true"
          unpack="false"/>
 
@@ -358,7 +358,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
          id="edu.buffalo.cse.jive.command.start"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          fragment="true"
          unpack="false"/>
 
@@ -366,7 +366,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
          id="edu.buffalo.cse.jive.command.stop"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          fragment="true"
          unpack="false"/>
 
@@ -374,7 +374,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
          id="edu.buffalo.cse.jive.command.version"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          fragment="true"
          unpack="false"/>
 
@@ -382,14 +382,14 @@ This Agreement is governed by the laws of the State of New York and the intellec
          id="edu.buffalo.cse.jive.exporter"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          unpack="false"/>
 
    <plugin
          id="edu.buffalo.cse.jive.exporter.ast"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          fragment="true"
          unpack="false"/>
 
@@ -397,7 +397,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
          id="edu.buffalo.cse.jive.exporter.mdg"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          fragment="true"
          unpack="false"/>
 
@@ -405,7 +405,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
          id="edu.buffalo.cse.jive.exporter.trace"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          fragment="true"
          unpack="false"/>
 
@@ -413,56 +413,56 @@ This Agreement is governed by the laws of the State of New York and the intellec
          id="edu.buffalo.cse.jive.model.slicing"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          unpack="false"/>
 
    <plugin
          id="edu.buffalo.cse.jive.model.events"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          unpack="false"/>
 
    <plugin
          id="edu.buffalo.cse.jive.model.values"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          unpack="false"/>
 
    <plugin
          id="edu.buffalo.cse.jive.model.contours"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          unpack="false"/>
 
    <plugin
          id="edu.buffalo.cse.jive.model.static"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          unpack="false"/>
 
    <plugin
          id="edu.buffalo.cse.jive.model.ast"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          unpack="false"/>
 
    <plugin
          id="edu.buffalo.cse.jive.model.queries"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          unpack="false"/>
 
    <plugin
          id="edu.buffalo.cse.jive.lib"
          download-size="0"
          install-size="0"
-         version="1.9.30.v20130525b"
+         version="1.9.31.v20150920b"
          unpack="false"/>
 
 </feature>

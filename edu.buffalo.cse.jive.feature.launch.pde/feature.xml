@@ -2,7 +2,7 @@
 <feature
       id="edu.buffalo.cse.jive.launch.pde"
       label="JIVE PDE Support (Optional)"
-      version="1.9.30.v20130525b"
+      version="1.9.31.v20150920b"
       provider-name="University at Buffalo">
 
    <description url="http://www.cse.buffalo.edu/jive">

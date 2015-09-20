@@ -3,7 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: JIVE Offline Launch Extension
 Bundle-SymbolicName: edu.buffalo.cse.jive.launch.offline;singleton:=true
 Bundle-Localization: plugin
-Bundle-Version: 1.9.30.v20130525b
+Bundle-Version: 1.9.31.v20150920b
 Bundle-Vendor: University at Buffalo
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Require-Bundle: org.eclipse.debug.ui,
