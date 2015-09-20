@@ -576,7 +576,8 @@ class SimpleQueryVisitor extends UniformExpressionVisitor
     return compileToRightEndpoint(expression);
   }
 
-  private IExpression subLiteral(final IExpression e, final IIntegerLiteral lit)
+  @SuppressWarnings("unused")
+private IExpression subLiteral(final IExpression e, final IIntegerLiteral lit)
       throws ExpressionException
   {
     if (lit.getValue() == 0)
@@ -1033,7 +1034,8 @@ class SimpleQueryVisitor extends UniformExpressionVisitor
       this.classes = new HashMap<IExpression, List<EquivalenceExpression>>();
     }
 
-    public EquivalenceClasses(IExpression exp)
+    @SuppressWarnings("unused")
+	public EquivalenceClasses(IExpression exp)
     {
       this();
       add(exp);
@@ -1050,7 +1052,8 @@ class SimpleQueryVisitor extends UniformExpressionVisitor
       classes.get(exp).add(new EquivalenceExpression(exp));
     }
 
-    public List<IExpression> getClass(IExpression exp)
+    @SuppressWarnings("unused")
+	public List<IExpression> getClass(IExpression exp)
     {
       List<IExpression> result = new ArrayList<IExpression>();
       List<EquivalenceExpression> list = classes.get(exp);

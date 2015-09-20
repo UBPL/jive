@@ -46,7 +46,7 @@ import edu.buffalo.cse.jive.lib.TypeTools;
  * @author demian
  *
  */
-@SuppressWarnings("restriction")
+@SuppressWarnings({ "restriction", "unused" })
 public class EventHandlerLite implements IJDIEventHandler
 {
   private final static String ENCODED_FIELD_READ = "FR....: %016x-%016x, oId.....: %016x, fId...: %016x\n";

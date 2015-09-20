@@ -1515,7 +1515,8 @@ final class LineSlice
    * necessary. If this line does not match the line cursor, this method updates the line cursor.
    * This method should be called once for each event processed by the slice.
    */
-  boolean handleEvent(final IJiveEvent event)
+  @SuppressWarnings("unused")
+boolean handleEvent(final IJiveEvent event)
   {
     if (event instanceof IFieldReadEvent
         // enum types read their enum constants after initialization and are never relevant

@@ -182,7 +182,7 @@ class OfflineDebugTarget implements IJavaDebugTarget, IJiveDebugTarget
     return null;
   }
 
-  @SuppressWarnings("rawtypes")
+  @SuppressWarnings({ "rawtypes", "unchecked" })
   @Override
   public Object getAdapter(final Class adapter)
   {

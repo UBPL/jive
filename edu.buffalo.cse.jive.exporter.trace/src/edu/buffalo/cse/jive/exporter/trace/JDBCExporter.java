@@ -1042,8 +1042,10 @@ public class JDBCExporter
       try
       {
         is = getClass().getResource("/resources/jive-schema.sql").openStream();
-        final String script = new java.util.Scanner(is, "UTF-8").useDelimiter("\\A").next();
+        java.util.Scanner scanner = new java.util.Scanner(is, "UTF-8");
+        final String script = scanner.useDelimiter("\\A").next();
         conn.createStatement().executeUpdate(script);
+        scanner.close();
       }
       catch (final Exception e)
       {

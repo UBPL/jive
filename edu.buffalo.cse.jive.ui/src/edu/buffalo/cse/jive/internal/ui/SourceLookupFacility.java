@@ -168,7 +168,7 @@ final class SourceLookupFacility implements ISourceLookupFacility
     }
 
     @Override
-    @SuppressWarnings("rawtypes")
+    @SuppressWarnings({ "rawtypes", "unchecked" })
     public Object getAdapter(final Class adapter)
     {
       throw new UnsupportedOperationException();

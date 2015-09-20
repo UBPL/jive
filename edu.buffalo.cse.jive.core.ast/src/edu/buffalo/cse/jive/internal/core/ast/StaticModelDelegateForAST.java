@@ -144,7 +144,7 @@ public class StaticModelDelegateForAST implements IStaticModelDelegate
       units.put(file, JavaCore.createCompilationUnitFrom(file));
     }
     final ICompilationUnit icu = units.get(file);
-    final ASTParser parser = ASTParser.newParser(AST.JLS4);
+    final ASTParser parser = ASTParser.newParser(AST.JLS8);
     parser.setKind(ASTParser.K_COMPILATION_UNIT);
     parser.setSource(icu);
     parser.setResolveBindings(true);

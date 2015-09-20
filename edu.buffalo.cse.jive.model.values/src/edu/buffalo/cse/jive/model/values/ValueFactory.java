@@ -181,7 +181,8 @@ public final class ValueFactory implements IValueFactory
       return this instanceof ContourReference;
     }
 
-    public boolean isGarbageCollected(final long eventId)
+    @SuppressWarnings("unused")
+	public boolean isGarbageCollected(final long eventId)
     {
       return false;
     }

@@ -50,7 +50,7 @@ public abstract class AbstractGraphicalJiveView extends AbstractJiveView
   private GraphicalViewer viewer;
 
   @Override
-  @SuppressWarnings("rawtypes")
+  @SuppressWarnings({ "rawtypes", "unchecked" })
   public Object getAdapter(final Class type)
   {
     if (type == ZoomManager.class)

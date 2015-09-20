@@ -849,7 +849,7 @@ public final class ProgramSlice implements IProgramSlice
 
   boolean hasChaseField(final IFieldAssignEvent event)
   {
-    final IContextContour context = event.contour();
+    //final IContextContour context = event.contour();
     final IContourMember member = event.member();
     return chaseFields.contains(member);
     // return chaseFields.contains(member)
