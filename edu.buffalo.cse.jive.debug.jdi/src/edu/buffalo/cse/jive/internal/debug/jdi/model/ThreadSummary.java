@@ -12,6 +12,7 @@ import edu.buffalo.cse.jive.model.IContourModel.IContour;
 import edu.buffalo.cse.jive.model.IEventModel.LockOperation;
 import edu.buffalo.cse.jive.model.factory.IContourFactory;
 
+@SuppressWarnings("restriction")
 class ThreadSummary implements IThreadSummary
 {
   private static final int STATUS_ACTIVE = 1;

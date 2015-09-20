@@ -38,6 +38,7 @@ import edu.buffalo.cse.jive.model.IStaticModel.NodeModifier;
 import edu.buffalo.cse.jive.model.factory.IContourFactory;
 import edu.buffalo.cse.jive.model.factory.IStaticModelFactory;
 
+@SuppressWarnings("restriction")
 final class ExecutionState implements IExecutionState
 {
   private static final int IDS_INITIAL_CAPACITY = 2048;

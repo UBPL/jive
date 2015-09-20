@@ -17,6 +17,7 @@ import edu.buffalo.cse.jive.model.IModelCache;
  * implementors may use inclusion or exclusion filters at any level; this interface only defines an
  * object that can apply filters to the types of requests corresponding to the defined methods.
  */
+@SuppressWarnings("restriction")
 public interface IModelFilter
 {
   /**

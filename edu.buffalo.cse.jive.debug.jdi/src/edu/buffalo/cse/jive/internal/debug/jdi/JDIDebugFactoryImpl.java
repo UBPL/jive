@@ -14,6 +14,7 @@ import com.sun.jdi.VirtualMachine;
 import edu.buffalo.cse.jive.debug.JiveDebugPlugin;
 import edu.buffalo.cse.jive.model.IJiveProject;
 
+@SuppressWarnings("restriction")
 public enum JDIDebugFactoryImpl
 {
   INSTANCE;

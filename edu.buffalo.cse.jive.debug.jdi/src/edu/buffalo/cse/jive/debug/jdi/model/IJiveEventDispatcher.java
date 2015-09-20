@@ -24,6 +24,7 @@ import edu.buffalo.cse.jive.model.IEventModel.IEventProducer;
  * Jive event. Other JDI model elements are used to generate Jive events such as local variable
  * changes inferred from inspection of stack frames.
  */
+@SuppressWarnings("restriction")
 public interface IJiveEventDispatcher extends IEventProducer
 {
   public void dispatchArrayCellWriteEvent(Location location, ThreadReference thread,

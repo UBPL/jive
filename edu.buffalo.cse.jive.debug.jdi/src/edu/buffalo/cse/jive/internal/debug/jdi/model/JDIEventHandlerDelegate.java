@@ -57,6 +57,7 @@ import edu.buffalo.cse.jive.model.factory.IContourFactory;
 import edu.buffalo.cse.jive.model.factory.IStaticModelFactory;
 import edu.buffalo.cse.jive.model.factory.IStaticModelFactory.IStaticModelDelegate;
 
+@SuppressWarnings("restriction")
 class JDIEventHandlerDelegate
 {
   private static final String VOID_TYPE_NAME = "void";
@@ -93,7 +94,6 @@ class JDIEventHandlerDelegate
   private boolean containsInModelFrames(final ThreadReference thread, final Location catchLocation)
       throws IncompatibleThreadStateException
   {
-    @SuppressWarnings("unchecked")
     final List<StackFrame> stack = thread.frames();
     for (final StackFrame frame : stack)
     {

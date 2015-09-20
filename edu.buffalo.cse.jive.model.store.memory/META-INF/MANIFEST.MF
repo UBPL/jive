@@ -14,4 +14,4 @@ Require-Bundle: edu.buffalo.cse.jive.model,edu.buffalo.cse.jive.model.ast,
  edu.buffalo.cse.jive.model.contours,edu.buffalo.cse.jive.model.events,
  edu.buffalo.cse.jive.model.queries,edu.buffalo.cse.jive.model.slicing,
  edu.buffalo.cse.jive.model.static,edu.buffalo.cse.jive.model.values,
- edu.buffalo.cse.jive.model.jdbc.postgres;bundle-version="1.9.26"
+ edu.buffalo.cse.jive.model.jdbc.pgsql

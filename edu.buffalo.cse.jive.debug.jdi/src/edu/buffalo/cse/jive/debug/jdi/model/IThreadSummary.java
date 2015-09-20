@@ -7,6 +7,7 @@ import com.sun.jdi.ThreadReference;
 import edu.buffalo.cse.jive.model.IContourModel.IContour;
 import edu.buffalo.cse.jive.model.IEventModel.LockOperation;
 
+@SuppressWarnings("restriction")
 public interface IThreadSummary
 {
   /**

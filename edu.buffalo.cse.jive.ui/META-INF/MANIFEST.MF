@@ -14,7 +14,8 @@ Require-Bundle: org.eclipse.ui.console;bundle-version="3.4.0";visibility:=reexpo
  edu.buffalo.cse.jive.model,
  edu.buffalo.cse.jive.debug.jdi,
  edu.buffalo.cse.jive.preferences,
- edu.buffalo.cse.jive.exporter;bundle-version="1.9.30"
+ edu.buffalo.cse.jive.exporter;bundle-version="1.9.30",
+ org.eclipse.jdt.debug
 Bundle-ActivationPolicy: lazy
 Export-Package: edu.buffalo.cse.jive.internal.ui;x-internal:=true,
  edu.buffalo.cse.jive.ui;

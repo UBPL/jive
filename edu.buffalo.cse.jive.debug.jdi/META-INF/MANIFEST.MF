@@ -7,11 +7,15 @@ Bundle-Activator: edu.buffalo.cse.jive.debug.JiveDebugPlugin
 Bundle-Vendor: University at Buffalo
 Require-Bundle: org.eclipse.core.runtime;bundle-version="3.5.0";visibility:=reexport,
  org.eclipse.debug.core;bundle-version="3.5.0";visibility:=reexport,
- org.eclipse.jdt.debug;bundle-version="3.5.0";visibility:=reexport,
- edu.buffalo.cse.jive.model;bundle-version="1.9.0",
- edu.buffalo.cse.jive.core.ast;bundle-version="1.9.0",
- edu.buffalo.cse.jive.preferences;bundle-version="1.9.1"
+ org.eclipse.jdt.debug,
+ edu.buffalo.cse.jive.preferences,
+ edu.buffalo.cse.jive.core.ast,
+ edu.buffalo.cse.jive.model,
+ edu.buffalo.cse.jive.debug.model
 Bundle-ActivationPolicy: lazy
+Import-Package: edu.buffalo.cse.jive.lib,
+ edu.buffalo.cse.jive.model.store,
+ org.eclipse.jdt.internal.debug.core.model
 Export-Package: edu.buffalo.cse.jive.debug;
   uses:="org.eclipse.debug.core,
    org.eclipse.core.runtime,
@@ -32,8 +36,3 @@ Export-Package: edu.buffalo.cse.jive.debug;
  edu.buffalo.cse.jive.internal.debug.jdi;x-internal:=true,
  edu.buffalo.cse.jive.internal.debug.jdi.model;x-internal:=true
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
-Import-Package: edu.buffalo.cse.jive.debug.jdi.model,
- edu.buffalo.cse.jive.debug.model,
- edu.buffalo.cse.jive.lib,
- edu.buffalo.cse.jive.model.store,
- org.eclipse.jdt.internal.debug.core.model

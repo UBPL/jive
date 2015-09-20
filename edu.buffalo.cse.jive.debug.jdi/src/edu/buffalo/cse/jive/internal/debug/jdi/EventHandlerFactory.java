@@ -30,6 +30,7 @@ import com.sun.jdi.request.ModificationWatchpointRequest;
 import edu.buffalo.cse.jive.debug.JiveDebugPlugin;
 import edu.buffalo.cse.jive.debug.jdi.model.IEventHandlerFactory;
 
+@SuppressWarnings("restriction")
 final class EventHandlerFactory implements IEventHandlerFactory
 {
   private final JiveDebugTarget owner;

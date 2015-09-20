@@ -10,7 +10,6 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-import java.util.concurrent.atomic.AtomicInteger;
 
 import edu.buffalo.cse.jive.internal.practql.Factory;
 import edu.buffalo.cse.jive.internal.practql.visitor.UniformExpressionVisitor;
@@ -761,6 +760,8 @@ class SimpleQueryVisitor extends UniformExpressionVisitor
             // c < t <==> t > c
             compiled = compileLiteralGT(fe, lit);
             break;
+          default:
+        	break;
         }
       }
       else
@@ -782,6 +783,8 @@ class SimpleQueryVisitor extends UniformExpressionVisitor
             // t < c
             compiled = compileLiteralLT(fe, lit);
             break;
+          default:
+        	break;
         }
       }
     }
@@ -818,6 +821,8 @@ class SimpleQueryVisitor extends UniformExpressionVisitor
             // t + c < t'
             compiled = compileLT(fe1, lit, fe2);
             break;
+          default:
+        	break;
         }
       }
       else if (re.getRHS() instanceof IAddition)
@@ -848,6 +853,8 @@ class SimpleQueryVisitor extends UniformExpressionVisitor
             // t < t' + c <==> t' + c > t <==> t' + c > t
             compiled = compileGT(fe2, lit, fe1);
             break;
+          default:
+        	break;
         }
       }
       else
@@ -875,6 +882,8 @@ class SimpleQueryVisitor extends UniformExpressionVisitor
             // t < t'
             compiled = compileLT(fe1, fe2);
             break;
+          default:
+        	break;
         }
       }
     }

@@ -24,6 +24,7 @@ import com.sun.jdi.Type;
 import com.sun.jdi.Value;
 import com.sun.jdi.VirtualMachine;
 
+@SuppressWarnings("restriction")
 class Synthetics
 {
   /**
@@ -69,7 +70,8 @@ class Synthetics
       thread.frames.add(this);
     }
 
-    @Override
+    @SuppressWarnings({ "rawtypes", "unchecked" })
+	@Override
     public List getArgumentValues()
     {
       return Collections.emptyList();
@@ -82,6 +84,7 @@ class Synthetics
       return null;
     }
 
+    @SuppressWarnings({ "rawtypes", "unchecked" })
     @Override
     public Map getValues(final List arg0)
     {
@@ -126,6 +129,7 @@ class Synthetics
       return null;
     }
 
+    @SuppressWarnings({ "rawtypes", "unchecked" })
     @Override
     public List visibleVariables() throws AbsentInformationException
     {
@@ -190,12 +194,14 @@ class Synthetics
       return frames.size();
     }
 
+    @SuppressWarnings({ "rawtypes", "unchecked" })
     @Override
     public List frames() throws IncompatibleThreadStateException
     {
       return frames;
     }
 
+    @SuppressWarnings({ "rawtypes", "unchecked" })
     @Override
     public List frames(final int fromIndex, final int toIndex)
         throws IncompatibleThreadStateException
@@ -210,6 +216,7 @@ class Synthetics
       return null;
     }
 
+    @SuppressWarnings({ "rawtypes", "unchecked" })
     @Override
     public Map getValues(final List arg0)
     {
@@ -222,6 +229,7 @@ class Synthetics
       // cowardly ignore
     }
 
+    @SuppressWarnings({ "rawtypes" })
     @Override
     public Value invokeMethod(final ThreadReference arg0, final Method arg1, final List arg2,
         final int arg3) throws InvalidTypeException, ClassNotLoadedException,
@@ -255,12 +263,14 @@ class Synthetics
       return "JIVE Snapshot";
     }
 
+    @SuppressWarnings({ "rawtypes", "unchecked" })
     @Override
     public List ownedMonitors() throws IncompatibleThreadStateException
     {
       return Collections.emptyList();
     }
 
+    @SuppressWarnings({ "rawtypes", "unchecked" })
     @Override
     public List ownedMonitorsAndFrames() throws IncompatibleThreadStateException
     {
@@ -286,6 +296,7 @@ class Synthetics
       return Synthetics.findVMThread(vm);
     }
 
+    @SuppressWarnings({ "rawtypes", "unchecked" })
     @Override
     public List referringObjects(final long arg0)
     {
@@ -353,6 +364,7 @@ class Synthetics
       return vm;
     }
 
+    @SuppressWarnings({ "rawtypes", "unchecked" })
     @Override
     public List waitingThreads() throws IncompatibleThreadStateException
     {
@@ -394,12 +406,14 @@ class Synthetics
       return null;
     }
 
+    @SuppressWarnings({ "rawtypes", "unchecked" })
     @Override
     public Map getValues(final List arg0)
     {
       return Collections.emptyMap();
     }
 
+    @SuppressWarnings({ "rawtypes" })
     @Override
     public Value invokeMethod(final ThreadReference arg0, final Method arg1, final List arg2,
         final int arg3) throws InvalidTypeException, ClassNotLoadedException,
@@ -438,6 +452,7 @@ class Synthetics
       return Synthetics.findVMThreadGroup(vm);
     }
 
+    @SuppressWarnings({ "rawtypes", "unchecked" })
     @Override
     public List referringObjects(final long arg0)
     {
@@ -463,12 +478,14 @@ class Synthetics
       // cowardly ignore
     }
 
+    @SuppressWarnings({ "rawtypes", "unchecked" })
     @Override
     public List threadGroups()
     {
       return Collections.emptyList();
     }
 
+    @SuppressWarnings({ "rawtypes", "unchecked" })
     @Override
     public List threads()
     {
@@ -493,6 +510,7 @@ class Synthetics
       return vm;
     }
 
+    @SuppressWarnings({ "rawtypes", "unchecked" })
     @Override
     public List waitingThreads() throws IncompatibleThreadStateException
     {

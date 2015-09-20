@@ -49,6 +49,7 @@ import edu.buffalo.cse.jive.model.IStaticModel.NodeVisibility;
 import edu.buffalo.cse.jive.model.factory.IStaticModelFactory;
 import edu.buffalo.cse.jive.model.factory.IStaticModelFactory.IStaticModelDelegate;
 
+@SuppressWarnings("restriction")
 class StaticModelDelegateForJDI implements IStaticModelDelegate
 {
   private final VirtualMachine vm;

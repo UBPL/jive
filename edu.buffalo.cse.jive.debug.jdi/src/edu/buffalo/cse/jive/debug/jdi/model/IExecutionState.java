@@ -20,6 +20,7 @@ import edu.buffalo.cse.jive.model.IModel.IThreadValue;
  * aspects such as elements that have been seen, modified, etc. The class keeps both JDI model
  * information as well as a map from JDI model elements to Jive model elements.
  */
+@SuppressWarnings("restriction")
 public interface IExecutionState
 {
   /**

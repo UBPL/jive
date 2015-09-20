@@ -11,7 +11,6 @@ import org.eclipse.jdt.debug.core.IJavaDebugTarget;
 import org.eclipse.jdt.debug.core.IJavaThread;
 import org.eclipse.jdt.internal.debug.core.IJDIEventListener;
 import org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget;
-import org.eclipse.jdt.internal.debug.core.model.JDIThreadAdapter;
 
 import com.sun.jdi.IncompatibleThreadStateException;
 import com.sun.jdi.Location;
@@ -28,8 +27,10 @@ import edu.buffalo.cse.jive.debug.jdi.model.IJDIEventHandler;
 import edu.buffalo.cse.jive.debug.jdi.model.IModelFilter;
 import edu.buffalo.cse.jive.debug.model.IJiveDebugTarget;
 import edu.buffalo.cse.jive.debug.model.IJiveStep;
+import org.eclipse.jdt.internal.debug.core.model.JDIThreadAdapter;
 import edu.buffalo.cse.jive.model.IExecutionModel;
 
+@SuppressWarnings("restriction")
 class JiveThread extends JDIThreadAdapter implements IJavaThread, IJiveStep
 {
   private JiveStepHandler stepHandler;

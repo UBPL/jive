@@ -1,9 +1,10 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Postgres JDB Driver Wrapper
-Bundle-SymbolicName: edu.buffalo.cse.jive.model.db.postgres;singleton:=true
-Bundle-Version: 1.9.25.v20120619b
+Bundle-Name: JIVE Postgresql JDBC Driver
+Bundle-SymbolicName: edu.buffalo.cse.jive.model.jdbc.pgsql;singleton:=true
+Bundle-Version: 1.9.30.v20130525b
 Bundle-Vendor: University at Buffalo
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Export-Package: org.postgresql,
  org.postgresql.copy,
  org.postgresql.core,
@@ -13,6 +14,7 @@ Export-Package: org.postgresql,
  org.postgresql.ds,
  org.postgresql.ds.common,
  org.postgresql.ds.jdbc23,
+ org.postgresql.ds.jdbc4,
  org.postgresql.fastpath,
  org.postgresql.geometric,
  org.postgresql.gss,
@@ -20,10 +22,12 @@ Export-Package: org.postgresql,
  org.postgresql.jdbc2.optional,
  org.postgresql.jdbc3,
  org.postgresql.jdbc3g,
+ org.postgresql.jdbc4,
+ org.postgresql.jdbc4.array,
  org.postgresql.largeobject,
  org.postgresql.ssl,
- org.postgresql.translation,
+ org.postgresql.ssl.jdbc4,
  org.postgresql.util,
- org.postgresql.xa
-Bundle-RequiredExecutionEnvironment: JavaSE-1.6
-Bundle-ActivationPolicy: lazy
+ org.postgresql.xa,
+ org.postgresql.xa.jdbc3,
+ org.postgresql.xa.jdbc4

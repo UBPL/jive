@@ -10,7 +10,6 @@ import org.eclipse.debug.core.model.IProcess;
 import org.eclipse.debug.core.model.IThread;
 import org.eclipse.jdt.debug.core.IJavaDebugTarget;
 import org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget;
-import org.eclipse.jdt.internal.debug.core.model.JDIDebugTargetAdapter;
 import org.eclipse.jdt.internal.debug.core.model.JDIThread;
 
 import com.sun.jdi.ObjectCollectedException;
@@ -35,6 +34,9 @@ import edu.buffalo.cse.jive.model.IEventModel.IJiveEvent;
 import edu.buffalo.cse.jive.model.IExecutionModel;
 import edu.buffalo.cse.jive.model.IJiveProject;
 
+import org.eclipse.jdt.internal.debug.core.model.JDIDebugTargetAdapter;
+
+@SuppressWarnings("restriction")
 class JiveDebugTarget extends JDIDebugTargetAdapter implements IJavaDebugTarget, IJiveDebugTarget
 {
   private final IJiveProject project;

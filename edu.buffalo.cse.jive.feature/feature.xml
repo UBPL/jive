@@ -195,14 +195,6 @@ This Agreement is governed by the laws of the State of New York and the intellec
          unpack="false"/>
 
    <plugin
-         id="edu.buffalo.cse.jive.debug.jdi.adapter"
-         download-size="0"
-         install-size="0"
-         version="1.9.30.v20130525b"
-         fragment="true"
-         unpack="false"/>
-
-   <plugin
          id="edu.buffalo.cse.jive.ui.view.diagram.contour"
          download-size="0"
          install-size="0"
@@ -317,7 +309,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
          unpack="false"/>
 
    <plugin
-         id="edu.buffalo.cse.jive.model.jdbc.postgres"
+         id="edu.buffalo.cse.jive.model.jdbc.pgsql"
          download-size="0"
          install-size="0"
          version="1.9.30.v20130525b"

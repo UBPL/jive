@@ -30,6 +30,7 @@ final class JDIManager implements IJDIManager
   private final IJDIEventHandler jdiHandler;
   private final boolean isManualStart;
 
+  @SuppressWarnings("unchecked")
   JDIManager(final IJiveDebugTarget owner)
   {
     ModelFilter filter = null;
@@ -43,7 +44,6 @@ final class JDIManager implements IJDIManager
       filter = new ModelFilter()
         {
           {
-            @SuppressWarnings("unchecked")
             final List<String> filters = config.getAttribute(PreferencesPlugin.getDefault()
                 .getExclusionFiltersKey(), (List<String>) null);
             final Iterator<String> iter = filters == null ? Collections.EMPTY_LIST.iterator()
@@ -69,7 +69,7 @@ final class JDIManager implements IJDIManager
     this.owner = owner;
     // adapts JDI events to Jive events
     this.jiveDispatcher = new JiveEventDispatcher(this.owner);
-    this.jdiHandler = new EventHandlerLite(this.owner);
+    this.jdiHandler = new JDIEventHandler(this.owner);
     // model filter
     this.modelFilter = filter;
     // execution model and its adapter

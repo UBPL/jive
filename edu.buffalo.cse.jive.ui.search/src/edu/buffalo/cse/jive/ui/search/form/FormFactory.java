@@ -1,7 +1,5 @@
 package edu.buffalo.cse.jive.ui.search.form;
 
-import java.awt.Color;
-
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.events.ModifyEvent;
 import org.eclipse.swt.events.ModifyListener;

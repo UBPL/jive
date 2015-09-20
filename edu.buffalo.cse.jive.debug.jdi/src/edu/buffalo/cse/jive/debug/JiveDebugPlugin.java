@@ -25,6 +25,7 @@ import edu.buffalo.cse.jive.model.factory.IStaticModelFactory.IStaticModelDelega
 /**
  * Activator that controls the plug-in life cycle and provides utility methods.
  */
+@SuppressWarnings("restriction")
 public class JiveDebugPlugin extends Plugin
 {
   /**

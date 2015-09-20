@@ -17,6 +17,7 @@ import com.sun.jdi.event.VMStartEvent;
  * Observation: new objects must be inferred as there is no corresponding event in JDI.
  * 
  */
+@SuppressWarnings("restriction")
 public interface IJDIEventHandler
 {
   /**

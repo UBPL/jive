@@ -53,6 +53,7 @@ import edu.buffalo.cse.jive.model.factory.IValueFactory;
 /**
  * This adapter users JDI model elements to create Jive events that do not depend on the JDI model.
  */
+@SuppressWarnings("restriction")
 final class EventFactoryAdapter
 {
   private static final String VOID_TYPE_NAME = "VOID";
@@ -205,7 +206,7 @@ final class EventFactoryAdapter
             if (thread.uniqueID() > 0)
             {
               final Method toString = ((ClassType) object.type()).methodsByName("name").get(0);
-              val = object.invokeMethod(thread, toString, new ArrayList(),
+              val = object.invokeMethod(thread, toString, new ArrayList<Value>(),
                   ObjectReference.INVOKE_SINGLE_THREADED);
             }
           }
@@ -238,7 +239,7 @@ final class EventFactoryAdapter
             if (thread.uniqueID() > 0)
             {
               final Method toString = ((ClassType) object.type()).methodsByName("toString").get(0);
-              val = object.invokeMethod(thread, toString, new ArrayList(),
+              val = object.invokeMethod(thread, toString, new ArrayList<Value>(),
                   ObjectReference.INVOKE_SINGLE_THREADED);
             }
           }
@@ -348,7 +349,6 @@ final class EventFactoryAdapter
     return JiveDebugPlugin.getDefault().jdiManager(owner);
   }
 
-  @SuppressWarnings("unchecked")
   private IContourMember resolveCatchVariable(final ExceptionEvent event, final StackFrame frame,
       final IMethodContour catcher)
   {

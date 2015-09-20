@@ -8,7 +8,8 @@ Bundle-Vendor: University at Buffalo
 Require-Bundle: edu.buffalo.cse.jive.debug.jdi;bundle-version="1.9.1",
  edu.buffalo.cse.jive.model;bundle-version="1.9.1",
  edu.buffalo.cse.jive.preferences;bundle-version="1.9.1",
- org.eclipse.jdt.launching;bundle-version="3.5.0"
+ org.eclipse.jdt.launching;bundle-version="3.5.0",
+ org.eclipse.jdt.debug
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Export-Package: edu.buffalo.cse.jive.internal.launch;x-internal:=true,

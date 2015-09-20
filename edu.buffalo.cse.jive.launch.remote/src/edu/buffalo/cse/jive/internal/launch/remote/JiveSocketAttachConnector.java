@@ -29,6 +29,7 @@ import edu.buffalo.cse.jive.launch.JiveLaunchPlugin;
 import edu.buffalo.cse.jive.launch.LaunchFactory;
 import edu.buffalo.cse.jive.model.IJiveProject;
 
+@SuppressWarnings("restriction")
 public class JiveSocketAttachConnector extends SocketAttachConnector
 {
   private static IDebugTarget createDebugTarget(final ILaunch launch, final VirtualMachine vm,

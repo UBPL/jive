@@ -27,6 +27,7 @@ import edu.buffalo.cse.jive.model.IModelCache;
  * program's call stack and missing in the mirrored stack. Hence, they show up as out-of-model
  * calls. Ideally, they should be "merged" within the containing method context.
  */
+@SuppressWarnings("restriction")
 class ModelFilter implements IModelFilter
 {
   /**

@@ -3,6 +3,7 @@ package edu.buffalo.cse.jive.internal.debug.jdi.model;
 import com.sun.jdi.Method;
 import com.sun.jdi.Type;
 
+@SuppressWarnings("restriction")
 enum JDITools
 {
   INSTANCE;

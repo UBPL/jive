@@ -42,6 +42,7 @@ import edu.buffalo.cse.jive.model.IEventModel.IMethodExitEvent;
  * Adapter for converting JDI events to JIVE events. Conversion ensures that the appropriate
  * contours exist and that Jive's model of the program's call stacks matches that of the JVM.
  */
+@SuppressWarnings("restriction")
 final class JiveEventDispatcher implements IJiveEventDispatcher
 {
   private final LocalDispatcher dispatcher;

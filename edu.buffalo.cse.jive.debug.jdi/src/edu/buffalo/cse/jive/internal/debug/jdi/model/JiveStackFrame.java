@@ -18,6 +18,7 @@ import com.sun.jdi.VirtualMachine;
 /**
  * Mirrors the JDI {@code StackFrame}, exposing (parts) of its state in a safe way.
  */
+@SuppressWarnings("restriction")
 final class JiveStackFrame implements StackFrame
 {
   private final int hashCode;
@@ -76,7 +77,7 @@ final class JiveStackFrame implements StackFrame
     return null;
   }
 
-  @SuppressWarnings("rawtypes")
+  @SuppressWarnings({ "rawtypes", "unchecked" })
   @Override
   public Map getValues(final List arg0)
   {

@@ -1,8 +1,7 @@
-Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: JIVE JDI Debug Adapter
 Bundle-SymbolicName: edu.buffalo.cse.jive.debug.jdi.adapter
-Bundle-Version: 1.9.30.v20130525b
+Bundle-Version: 1.9.25.v20120619b
 Bundle-Vendor: University at Buffalo
 Fragment-Host: org.eclipse.jdt.debug;bundle-version="3.5.0"
 Export-Package: org.eclipse.jdt.internal.debug.core.model;x-internal:=true

@@ -6,5 +6,5 @@ Bundle-Version: 1.9.30.v20130525b
 Bundle-Vendor: University at Buffalo
 Fragment-Host: edu.buffalo.cse.jive.exporter;bundle-version="1.9.29"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
-Require-Bundle: edu.buffalo.cse.jive.model.jdbc.postgres
+Require-Bundle: edu.buffalo.cse.jive.model.jdbc.pgsql
 Import-Package: edu.buffalo.cse.jive.lib

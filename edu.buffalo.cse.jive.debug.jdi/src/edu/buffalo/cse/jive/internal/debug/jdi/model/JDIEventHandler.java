@@ -35,6 +35,7 @@ import edu.buffalo.cse.jive.debug.jdi.model.IJiveEventDispatcher;
 import edu.buffalo.cse.jive.debug.model.IJiveDebugTarget;
 import edu.buffalo.cse.jive.model.IModel.IThreadValue;
 
+@SuppressWarnings("restriction")
 public class JDIEventHandler implements IJDIEventHandler
 {
   private boolean override;
