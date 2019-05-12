@@ -6,6 +6,7 @@ import java.net.URL;
 import org.eclipse.debug.core.ILaunchManager;
 import org.eclipse.jdt.launching.AbstractVMInstall;
 import org.eclipse.jdt.launching.IVMInstall;
+import org.eclipse.jdt.launching.IVMInstall2;
 import org.eclipse.jdt.launching.IVMInstallType;
 import org.eclipse.jdt.launching.IVMRunner;
 import org.eclipse.jdt.launching.LibraryLocation;
@@ -17,7 +18,7 @@ import org.eclipse.jdt.launching.LibraryLocation;
  * 
  * @see VMInstallProxy#getVMRunner(String)
  */
-public class VMInstallProxy implements IVMInstall
+public class VMInstallProxy implements IVMInstall, IVMInstall2
 {
   /**
    * The subject to which the proxy delegates requests.
@@ -130,5 +131,24 @@ public class VMInstallProxy implements IVMInstall
   public void setVMArguments(final String[] vmArgs)
   {
     subject.setVMArguments(vmArgs);
+  }
+
+  // --------------------------------------------------------------------------------
+  // IVMInstall2 implementation
+  // --------------------------------------------------------------------------------
+  
+  @Override
+  public String getVMArgs() {
+	return subject.getVMArgs();
+  }
+
+  @Override
+  public void setVMArgs(String vmArgs) {
+    subject.setVMArgs(vmArgs);
+  }
+
+  @Override
+  public String getJavaVersion() {
+    return subject.getJavaVersion();
   }
 }
