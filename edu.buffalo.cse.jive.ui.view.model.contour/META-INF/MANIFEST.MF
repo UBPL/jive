@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: JIVE UI Contour Model View
 Bundle-SymbolicName: edu.buffalo.cse.jive.ui.view.model.contour;singleton:=true
-Bundle-Version: 1.9.31.v20150920b
+Bundle-Version: 1.9.32.v20190616b
 Bundle-Vendor: University at Buffalo
 Fragment-Host: edu.buffalo.cse.jive.ui
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
